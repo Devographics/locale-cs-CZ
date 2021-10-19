@@ -7,14 +7,15 @@ translations:
 
     - key: general.survey_intro_js2019
       t: >
-          Svět JavaScriptu by si zasloužil udělat trochu pořádek.
+        Svět JavaScriptu by si zasloužil udělat trochu pořádek.
 
-          Od roku 2016 jsme každý rok v tomto průzkumu sesbírali data od více
-          než 20 000 vývojářů a identifikovali jsme aktuální a nadcházející trendy.
+        Od roku 2016 jsme každý rok v tomto průzkumu sesbírali data od více
+        než 20 000 vývojářů a identifikovali jsme aktuální a nadcházející
+        trendy.
 
-          Účastněte se průzkumu i vy a pomozte nám zjistit, které knihovny se
-          vývojáři chtějí naučit používat, které z nich mají nejlepší hodnocení,
-          a mnohem víc.
+        Účastněte se průzkumu i vy a pomozte nám zjistit, které knihovny se
+        vývojáři chtějí naučit používat, které z nich mají nejlepší hodnocení,
+        a mnohem víc.
 
     ###########################################################################
     # Sections

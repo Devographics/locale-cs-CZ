@@ -1,0 +1,18 @@
+locale: cs-CZ
+namespace: css
+translations:
+    ###########################################################################
+    # General
+    ###########################################################################
+
+    - key: general.survey_intro_css2021
+      t: >
+        Hej CSS, co je nového? Cože, `@container`? Pevné poměry stran? A
+        `@property`?! To vypadá na pěkný kus práce!
+
+
+        Přestože s pandemií jsme to měli v roce 2021 všichni těžké, zapáleným
+        přispěvatelům po celém světě se kupodivu i tak podařilo posunout CSS
+        zase o kus vpřed. A tak opět nastal čas prozkoumat ekosystém CSS a
+        zjistit, kam to celé směřuje. A když už v tom budete, možná se dovíte i
+        něco nového.

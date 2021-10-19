@@ -1,0 +1,117 @@
+locale: cs-CZ
+translations:
+    ###########################################################################
+    # General
+    ###########################################################################
+
+    - key: general.no_preview_surveys
+      t: Žádné průzkumy k nahlédnutí
+    - key: general.global_nav
+      t: Hlavní navigace
+
+    ###########################################################################
+    # FAQ
+    ###########################################################################
+
+    - key: general.faq
+      t: FAQ
+    - key: faq.create_account
+      t: Proč si musím vytvořit účet?
+    - key: faq.create_account.description
+      t: >
+        O vytvoření účtu vás žádáme, abychom předešli duplicitním odpovědím,
+        abychom mohli ukládat vaše odpovědi a abychom vám mohli dát vědět,
+        jakmile budou zveřejněny výsledky průzkumu.
+    - key: faq.anonymous_survey
+      t: Mohu se průzkumu zúčastnit anonymně?
+    - key: faq.anonymous_survey.description
+      t: >
+        Ano, můžete použít falešnou (neco@example.com) nebo anonynimizovanou
+        e-mailovou adresu, pokud si ji uložíte pro budoucí přihlášení.
+    - key: faq.questions_required
+      t: Jsou všechny otázky povinné?
+    - key: faq.questions_required.description
+      t: >
+        Ne, všechny otázky v průzkumu jsou zcela volitelné a můžete je
+        přeskakovat.
+    - key: faq.data_published
+      t: Budou mé odpovědi zveřejněny?
+    - key: faq.data_published.description
+      t: >
+        Ano, všechny odpovědi budou zveřejněny, ale teprve poté, co budou
+        zbaveny všech informací umožňujících identifikaci (e-mailové adresy,
+        uživatelská jména, ID apod.).
+    - key: faq.survey_design
+      t: Jakým způsobem jsou průzkumy postavené?
+    - key: faq.survey_design.description
+      # yamllint disable rule:line-length
+      t: >
+        Průzkumy jsou vystavěny na základě zpětné vazby od komunity a revize
+        odborníků. Více si můžete
+        [přečíst zde](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb).
+      # yamllint enable rule:line-length
+    - key: faq.results_released
+      t: Kdy budou zveřejněny výsledky?
+    - key: faq.results_released.description
+      t: Výsledky jsou zpravidla zveřejněny několik týdnů po uzavření průzkumu.
+    - key: faq.survey_deadline
+      t: Kdy bude průzkum uzavřen?
+    - key: faq.survey_deadline.description
+      t: Tento průzkum bude otevřený do {date}
+    - key: faq.team
+      t: Kdo stojí za těmito průzkumy?
+    - key: faq.team.description
+      t: >
+        Průzkumy provádím [já](http://sachagreif.com) ve spolupráci s
+        přispěvateli, překladateli a dalšími dobrovolníky.
+
+    ###########################################################################
+    # Form Controls
+    ###########################################################################
+
+    - key: bracket.vs
+      t: VS
+    - key: bracket.start_over
+      t: Začít znovu
+    - key: bracket.winner
+      t: >
+      Winner:
+    - key: bracket.round
+      t: Kolo
+    - key: bracket.empty_bracket
+      t: Čeká se na výsledek (dokončete nejprve předchozí kolo)
+    - key: bracket.result
+      t: Výsledek
+    - key: bracket.cancel
+      t: Zrušit
+
+
+    ###########################################################################
+    # Demographics (About You/User Info)
+    ###########################################################################
+
+    - key: user_info.gender.description
+      t: >
+        Co z následujícího vás nejlépe popisuje?
+
+
+        Tato data používáme ke sledování a vylepšování inkluzivity a vypovídací
+        hodnoty průzkumu. Tak jako všechny otázky, i tato je zcela dobrovolná.
+
+    - key: user_info.race_ethnicity.description
+      t: >
+        Co z následujícího vás nejlépe popisuje? Vyberte všechny relevantní
+        možnosti.
+
+
+        Tato data používáme ke sledování a vylepšování inkluzivity a vypovídací
+        hodnoty průzkumu. Tak jako všechny otázky, i tato je zcela dobrovolná.
+
+    - key: user_info.disability_status.description
+      t: >
+        Co z následujícího vás nejlépe popisuje? Vyberte všechny relevantní
+        možnosti. Dočasná omezení nebo zranění mohou být také zahrnuta.
+
+
+        Tato data používáme ke sledování a vylepšování inkluzivity a vypovídací
+        hodnoty průzkumu. Tak jako všechny otázky, i tato je zcela dobrovolná.
