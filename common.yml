@@ -77,16 +77,41 @@ translations:
       t: Nápověda k překladům
     - key: general.newly_added
       t: Nově přidané tento rok
+    - key: general.new
+      t: Nové
+    - key: general.devographics_banner
+      t: >
+        <a href="https://www.devographics.com/" target="_blank">Devographics</a>
+        je nový název kolektivu pořádajícího průzkumy State of JavaScript,
+        CSS a GraphQL.
 
     # credits
     - key: credits.thanks
       t: Poděkování
+    - key: credits.contributors
+      t: Přispěvatelé
+    - key: credits.contributors.description
+      t: >
+        Zvláštní poděkování za pomoc při
+        vytváření průzkumu patří následujícím lidem.
     - key: credits.accessibility
       t: Konzultace přístupnosti
     - key: credits.survey_design
       t: Design průzkumu
     - key: credits.logo_design
       t: Design loga
+    - key: credits.mobile_testing
+      t: Mobilní testování
+    - key: credits.data_visualizations
+      t: Vizualizace dat
+    - key: credits.repo_architecture
+      t: Architektura repozitářů
+    - key: credits.code_refactoring
+      t: Refaktoring kódu
+    - key: credits.data_processing
+      t: Zpracování dat
+    - key: credits.back_end_development
+      t: Vývoj backendu
 
     # support
     - key: general.support_from
@@ -169,7 +194,9 @@ translations:
     - key: forms.clear_field
       t: Vymazat otázku
 
-    # partners
+  # partners & sponsors
+    - key: sponsors.with_support_from
+      t: S jedinečnou podporou od
     - key: sponsors.our_partners
       t: Naši partneři
     - key: sponsors.become_partner
@@ -188,6 +215,14 @@ translations:
       t: Stiskněte option/alt pro zapnutí režimu překladu.
     - key: general.charts_nivo
       t: Grafy vyrobeny s pomocí <a href="{link}">Nivo</a>.
+    - key: general.made_by_devographics
+      t: Vytvořili <a href="{link}">Devographics</a>
+    - key: general.view_code_example
+      t: Zobrazit ukázku kódu
+    - key: general.feature_code_example
+      t: "**{featureName}** ukázka kódu"
+    - key: general.code_example
+      t: Ukázka kódu
 
     ###########################################################################
     # Nav
@@ -238,11 +273,11 @@ translations:
 
     # features
     - key: options.features.never_heard
-      t: 🤷 Neslyšel jsem/Nevím přesně, o co jde
+      t: <span aria-hidden="true">🤷</span> Neslyšel jsem/Nevím přesně, o co jde
     - key: options.features.heard
-      t: ✅ Znám, ale nepoužil jsem
+      t: <span aria-hidden="true">✅</span> Znám, ale nepoužil jsem
     - key: options.features.used
-      t: 👍 Už jsem použil
+      t: <span aria-hidden="true">👍</span> Už jsem použil
 
     # features (no emoji)
     - key: options.features.never_heard.label
@@ -274,15 +309,15 @@ translations:
 
     # tools experience
     - key: options.tools.never_heard
-      t: 🤷 Neslyšel jsem/Nevím přesně, o co jde
+      t: <span aria-hidden="true">🤷</span> Neslyšel jsem/Nevím přesně, o co jde
     - key: options.tools.interested
-      t: ✅ Slyšel jsem o tom > Rád bych to uměl
+      t: <span aria-hidden="true">✅</span> Slyšel jsem o tom > Rád bych to uměl
     - key: options.tools.not_interested
-      t: 🚫 Slyšel jsem o tom > Nemám zájem
+      t: <span aria-hidden="true">🚫</span> Slyšel jsem o tom > Nemám zájem
     - key: options.tools.would_use
-      t: 👍 Použil jsem > Použil bych znovu
+      t: <span aria-hidden="true">👍</span> Použil jsem > Použil bych znovu
     - key: options.tools.would_not_use
-      t: 👎 Použil jsem > Stačilo jednou
+      t: <<span aria-hidden="true">👎</span> Použil jsem > Stačilo jednou
 
     # tools experience (no emoji)
     - key: options.tools.never_heard.legend
@@ -346,13 +381,13 @@ translations:
 
     # age
     - key: options.age.range_less_than_10
-      t: Méně než 10 let
+      t: 10 a méně let
     - key: options.age.range_10_18
-      t: 10–18 let
+      t: 11–18 let
     - key: options.age.range_18_24
-      t: 18–24 let
+      t: 19–24 let
     - key: options.age.range_25_34
-      t: 24–34 let
+      t: 25–34 let
     - key: options.age.range_35_44
       t: 35–44 let
     - key: options.age.range_45_54
@@ -361,6 +396,24 @@ translations:
       t: 55–64 let
     - key: options.age.range_more_than_65
       t: 65 a více let
+
+    # age (short versions)
+    - key: options.age.range_less_than_10.short
+      t: '<=10'
+    - key: options.age.range_10_18.short
+      t: 11–18
+    - key: options.age.range_18_24.short
+      t: 19–24
+    - key: options.age.range_25_34.short
+      t: 25–34
+    - key: options.age.range_35_44.short
+      t: 35–44
+    - key: options.age.range_45_54.short
+      t: 45–54
+    - key: options.age.range_55_64.short
+      t: 55–64
+    - key: options.age.range_more_than_65.short
+      t: '>65'
 
     # years of experience
     - key: options.years_of_experience.range_less_than_1
@@ -430,100 +483,33 @@ translations:
     - key: options.yearly_salary.range_work_for_free
       t: Pracuji zadarmo
     - key: options.yearly_salary.range_0_10
-      t: 0 – 10 000 USD
+      t: 0 – 10 000 USD (0 – 250 000 Kč)
     - key: options.yearly_salary.range_10_30
-      t: 10 000 – 30 000 USD
+      t: 10 000 – 30 000 USD (250 000 – 750 000 Kč)
     - key: options.yearly_salary.range_30_50
-      t: 30 000 – 50 000 USD
+      t: 30 000 – 50 000 USD (750 000 – 1 250 000 Kč)
     - key: options.yearly_salary.range_50_100
-      t: 50 000 – 100 000 USD
+      t: 50 000 – 100 000 USD (1 250 000 – 2 500 000 Kč)
     - key: options.yearly_salary.range_100_200
-      t: 100 000 – 200 000 USD
+      t: 100 000 – 200 000 USD (2 500 000 – 5 000 000 Kč)
     - key: options.yearly_salary.range_more_than_200
-      t: Více než 200 000 USD
+      t: Více než 200 000 USD (5 000 000 Kč)
 
     # salary (short versions)
     - key: options.yearly_salary.range_work_for_free.short
-      t: 0 USD
+      t: 0 USD (0 Kč)
     - key: options.yearly_salary.range_0_10.short
-      t: 0 – 10 000 USD
+      t: 0 – 10 000 USD (0 – 250 000 Kč)
     - key: options.yearly_salary.range_10_30.short
-      t: 10 000 – 30 000 USD
+      t: 10 000 – 30 000 USD (250 000 – 750 000 Kč)
     - key: options.yearly_salary.range_30_50.short
-      t: 30 000 – 50 000 USD
+      t: 30 000 – 50 000 USD (750 000 – 1 250 000 Kč)
     - key: options.yearly_salary.range_50_100.short
-      t: 50 000 – 100 000 USD
+      t: 50 000 – 100 000 USD (1 250 000 – 2 500 000 Kč)
     - key: options.yearly_salary.range_100_200.short
-      t: 100 000 – 200 000 USD
+      t: 100 000 – 200 000 USD (2 500 000 – 5 000 000 Kč)
     - key: options.yearly_salary.range_more_than_200.short
-      t: '> 200 000 USD'
-
-    # job titles
-    - key: options.job_title.cto
-      t: CTO
-    - key: options.job_title.front_end_developer
-      t: Front-end Developer/Engineer
-    - key: options.job_title.back_end_developer
-      t: Back-end Developer/Engineer
-    - key: options.job_title.full_stack_developer
-      t: Full Stack Developer/Engineer
-    - key: options.job_title.web_developer
-      t: Web Developer
-    - key: options.job_title.web_designer
-      t: Web Designer
-    - key: options.job_title.ux_designer
-      t: UX Designer
-    - key: options.job_title.ui_designer
-      t: UI Designer
-    - key: options.job_title.back_end_dev
-      t: Back-end Developer/Engineer
-
-    # JavaScript proficiency
-
-    - key: options.javascript_proficiency.0
-      t: Neumím JavaScript
-    - key: options.javascript_proficiency.1
-      t: Zvládnu krátké, jednoduché javascriptové nebo jQuery příkazy
-    - key: options.javascript_proficiency.2
-      t: >
-        Podílím se na existujícím frontendovém kódu s využitím moderních
-        frameworků (React, Vue aj.)
-    - key: options.javascript_proficiency.3
-      t: Od základů navrhuji frontendovou architekturu
-    - key: options.javascript_proficiency.4
-      t: >
-        Ovládám pokročilé frontendové návrhové vzory (state management, načítání
-        dat aj.)
-
-    # CSS proficiency
-
-    - key: options.css_proficiency.0
-      t: Nemám moc ponětí o CSS
-    - key: options.css_proficiency.1
-      t: Umím použít CSS frameworky a upravit existující styly
-    - key: options.css_proficiency.2
-      t: Znám pravidla specificity a umím vytvářet layouty
-    - key: options.css_proficiency.3
-      t: Zvládám animace, interakce, přechody atd.
-    - key: options.css_proficiency.4
-      t: >
-        Umím vytvořit kompletní stylopis s využitím konzistentní metodiky
-        názvosloví
-
-    # Back-end proficiency
-
-    - key: options.backend_proficiency.0
-      t: Neovládám žádný backendový framework
-    - key: options.backend_proficiency.1
-      t: >
-        Zvládám nastavit all-in-one CMS (WordPress aj.) nebo statické generátory
-        (Jekyll aj.)
-    - key: options.backend_proficiency.2
-      t: Ovládám vývoj aplikací s využitím frameworků (Rails, Laravel aj.)
-    - key: options.backend_proficiency.3
-      t: Zvládám od základů navrhnout celý backend (Go, Node.js aj.)
-    - key: options.backend_proficiency.4
-      t: Ovládám komplexní architektury jako multi-server nebo microservices
+      t: '> 200 000 USD (5 000 000 Kč)'
 
     # Proficiency (generic versions)
     - key: options.proficiency.0
@@ -547,7 +533,24 @@ translations:
       t: Nebinární nebo nekonformní
     - key: options.gender.questioning
       t: V řešení
+    - key: options.gender.prefer_not_to_say
+      t: Nechci uvádět
     - key: options.gender.not_listed
+      t: Neuvedeno
+
+    # Gender (short)
+
+    - key: options.gender.female.short
+      t: Žena
+    - key: options.gender.male.short
+      t: Muž
+    - key: options.gender.non_binary.short
+      t: Nebinární nebo nekonformní
+    - key: options.gender.questioning.short
+      t: V řešení
+    - key: options.gender.prefer_not_to_say.short
+      t: Nechci uvádět
+    - key: options.gender.not_listed.short
       t: Neuvedeno
 
     # Race & Ethnicity
@@ -569,10 +572,34 @@ translations:
     - key: options.race_ethnicity.multiracial
       t: Smíšený
     - key: options.race_ethnicity.biracial
-      t: Biracial
+      t: Biracální
     - key: options.race_ethnicity.native_american_islander_australian
       t: Americký či tichomořský domorodec nebo Austrálec
     - key: options.race_ethnicity.not_listed
+      t: Neuvedeno
+
+    # Race & Ethnicity (short)
+    - key: options.race_ethnicity.white_european.short
+      t: Bílý nebo původem evropský
+    - key: options.race_ethnicity.south_asian.short
+      t: Jihoasijský
+    - key: options.race_ethnicity.south_east_asian.short
+      t: Jihovýchodoasijský
+    - key: options.race_ethnicity.hispanic_latin.short
+      t: Hispánský nebo latino
+    - key: options.race_ethnicity.east_asian.short
+      t: Východoasijský
+    - key: options.race_ethnicity.middle_eastern.short
+      t: Středovýchodní
+    - key: options.race_ethnicity.black_african.short
+      t: Černý nebo původem africký
+    - key: options.race_ethnicity.multiracial.short
+      t: Smíšený
+    - key: options.race_ethnicity.biracial.short
+      t: Biracální
+    - key: options.race_ethnicity.native_american_islander_australian.short
+      t: Americký či tichomořský domorodec nebo Austrálec
+    - key: options.race_ethnicity.not_listed.short
       t: Neuvedeno
 
     # Disability Status
@@ -588,6 +615,23 @@ translations:
     - key: options.disability_status.cognitive_impairments
       t: >
         Kognitivní vady (např. nervozita, dyslexie apod.)
+    - key: options.disability_status.not_listed
+      t: >
+        Neuvedeno
+
+    # Disability Status (short)
+    - key: options.disability_status.visual_impairments
+      t: >
+        Vady zraku
+    - key: options.disability_status.hearing_impairments
+      t: >
+        Vady sluchu
+    - key: options.disability_status.mobility_impairments
+      t: >
+        Omezení pohyblivosti
+    - key: options.disability_status.cognitive_impairments
+      t: >
+        Kognitivní vady
     - key: options.disability_status.not_listed
       t: >
         Neuvedeno
@@ -750,9 +794,31 @@ translations:
     - key: options.higher_education_degree.no
       t: Ne
     - key: options.higher_education_degree.yes_related
-      t: Ano, v oblasti související s mou profesí
+      t: Ano, v oboru souvisejícím s mou profesí
     - key: options.higher_education_degree.yes_unrelated
-      t: Ano, ale v oblasti nesouvisející s mou profesí
+      t: Ano, ale v oboru nesouvisejícím s mou profesí
+
+    # degree (short versions)
+    - key: options.higher_education_degree.no_degree.short
+      t: Ne
+    - key: options.higher_education_degree.yes_related.short
+      t: Ano, související obor
+    - key: options.higher_education_degree.yes_unrelated.short
+      t: Yes, nesouvisející obor
+
+    # bracket
+    - key: options.bracket.round1
+      t: Vyhrává první kolo
+    - key: options.bracket.round2
+      t: Vyhrává druhé kolo
+    - key: options.bracket.round3
+      t: Vyhrává třetí kolo
+    - key: options.bracket.combined
+      t: Kombinované
+
+    # email_temporary (receive updates?)
+    - key: options.email_temporary.yes
+      t: Ano, pošlete mi e-mail, jakmile budou výsledky průzkumu zveřejněny
 
     ###########################################################################
     # Tools
@@ -776,6 +842,8 @@ translations:
     # age
     - key: user_info.age
       t: Věk
+    - key: user_info.age.description
+      t: Kolik vám je let?
 
     # years of experience
     - key: user_info.years_of_experience
@@ -826,6 +894,11 @@ translations:
       t: >
         Tato data používáme pro sledování a vylepšování vypovídací hodnoty
         průzkumu.
+    - key: user_info.gender.note
+      t: >
+        I když víme, že shromažďování a publikování dat o diverzitě může být
+        citlivou záležitostí, domníváme se, že je důležité získat tato data
+        za účelem zlepšení inkluzivity a reprezentativnosti průzkumu.
 
     # race & ethnicity
     - key: user_info.race_ethnicity
@@ -835,6 +908,15 @@ translations:
       t: >
         Tato data používáme pro sledování a vylepšování vypovídací hodnoty
         průzkumu.
+    - key: user_info.race_ethnicity.note
+      t: >
+        I když víme, že shromažďování a publikování dat o diverzitě může být
+        citlivou záležitostí, domníváme se, že je důležité získat tato data
+        za účelem zlepšení inkluzivity a reprezentativnosti průzkumu.
+    - key: user_info.race_ethnicity.not_allowed
+      t: >
+        Za účelem dodržení místních zásad bylo shromažďování údajů
+        o rase nebo etnické příslušnosti ve vaší zemi zakázáno.
 
   # disability status
     - key: user_info.disability_status
@@ -853,8 +935,20 @@ translations:
       t: Jak jste se dověděli o tomto průzkumu?
     - key: user_info.email
       t: Váš e-mail
+    - key: user_info.email.description
+      t: >
+        Dotazník jste vyplnili anonymně. Pokud chcete,
+        můžete volitelně zadat svůj e-mail, abyste měli později přístup
+        ke svým datům a byli informováni o zveřejnění výsledků průzkumu.
+    - key: user_info.email.note
+      t: >
+        Neuchováváme žádné osobní údaje. Jakmile vyplníte svou
+        e-mailovou adresu, použijeme ji k vygenerování anonymizovaného
+        identifikátoru a následně ji vymažeme z našich záznamů.
     - key: user_info.country
       t: Země
+    - key: user_info.country.description
+      t: Kde v současné době žijete?
 
     - key: user_info.github_username
       t: Váš GitHub účet
@@ -885,6 +979,26 @@ translations:
       t: Vysokoškolské/vyšší odborné vzdělání
     - key: user_info.higher_education_degree.description
       t: Máte ukončené vysokoškolské nebo vyšší odborné vzdělání?
+
+    # completion
+    - key: user_info.completion_stats
+      t: Dokončení průzkumu
+    - key: user_info.completion_stats.description
+      t: Jakou část průzkumu respondenti vyplnili?
+
+    # email_temporary (receive updates?)
+    - key: user_info.email_temporary
+      t: Chcete být informováni, až budou zveřejněny výsledky průzkumu?
+    - key: user_info.email_temporary.note
+      t: >
+        Neuchováváme žádná soukromá data. Jakmile bude vaše e-mailová
+        adresa odeslána našemu poskytovateli mailing listu,
+        bude smazána z našich záznamů.
+
+    # how can we improve the survey?
+    - key: user_info.how_can_we_improve
+      t: Jak můžeme zlepšit tento průzkum?
+
 
     ###########################################################################
     # Other Tools
@@ -942,6 +1056,15 @@ translations:
     - key: tools_others.non_js_languages.others
       t: Jiné programovací jazyky
     - key: tools_others.non_js_languages.others.description
+      t: Jiné (vyplňte).
+
+    - key: tools_others.javascript_flavors
+      t: Podobné JavaScriptu
+    - key: tools_others.javascript_flavors.description
+      t: Jazyky, které se kompilují do JavaScriptu
+    - key: tools_others.javascript_flavors.others
+      t: Ostatní podobné JavaScriptu
+    - key: tools_others.javascript_flavors.others.description
       t: Jiné (vyplňte).
 
     ###########################################################################
@@ -1003,3 +1126,11 @@ translations:
       t: >
         Lidé, které sledujete nebo jen chcete zmínit jejich práci (více jmen
         oddělujte čárkou).
+
+    # other surveys
+    - key: resources.other_surveys
+      t: Jiné průzkumy
+    - key: resources.other_surveys.description
+      t: Kterých dalších vývojářských průzkumů se účastníte?
+    - key: resources.other_surveys.others
+      t: Jiné, výše neuvedené průzkumy
