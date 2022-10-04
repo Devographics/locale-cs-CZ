@@ -54,6 +54,10 @@ translations:
     t: Registrovat
   - key: accounts.sign_in
     t: Přihlásit
+  - key: accounts.switch_to_sign_up
+    t: Nemáte účet? Registrovat
+  - key: accounts.switch_to_sign_in
+    t: Máte již účet? Přihlásit
   - key: accounts.sign_out
     t: Odhlásit
   - key: accounts.cancel
@@ -68,9 +72,15 @@ translations:
     t: Nejprve se prosím přihlaste nebo registrujte.
   - key: accounts.logged_in_as
     t: Přihlášen jako {email}
+  - key: accounts.logged_in_as_guest
+    t: Přihlásit se jako host
   - key: accounts.questions
     t: >
       Pokud máte jakékoli dotazy k tomu, jak pracujeme s vašimi údaji, nebo
       chcete, abychom vaše údaje trvale smazali,
       <a href="mailto:hello@stateofjs.com">napište nám prosím</a> (v angličtině,
       díky!).
+  - key: accounts.token_verified
+    t: Ověření tokenu bylo úspěšné, přesměrování…
+  - key: accounts.your_surveys
+    t: Vaše průzkumy
