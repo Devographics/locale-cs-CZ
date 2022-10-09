@@ -8,6 +8,56 @@ translations:
       t: Žádné průzkumy k nahlédnutí
     - key: general.global_nav
       t: Hlavní navigace
+    - key: general.survey_status_preview
+      t: Náhled
+    - key: general.survey_status_open
+      t: Otevřené
+    - key: general.survey_status_closed
+      t: Zavřené
+
+    ###########################################################################
+    # Errors
+    ###########################################################################
+
+    - key: error.duplicate_response
+      t: >
+        Je nám líto, ale tento dotazník už máte rozpracovaný v rámci
+        jiné relace.
+
+    ###########################################################################
+    # Accounts
+    ###########################################################################
+
+    - key: accounts.create_account
+      t: Vytvořit účet
+    - key: accounts.create_account.description
+      t: >
+        Účet vám v budoucnu umožní **přístup k vašim vlastním datům** a
+        dostanete upozornění, jakmile budou zveřejněny výsledky průzkumu.
+    - key: accounts.create_account.note
+      t: >
+        Pokud **již máte účet**, zašleme vám e-mailem magický odkaz
+        pro přihlášení.
+    - key: accounts.create_account.action
+      t: Pokračovat s účtem
+    - key: accounts.your_email
+      t: Váš e-mail
+
+    - key: accounts.continue_as_guest
+      t: Pokračovat jako host
+    - key: accounts.continue_as_guest.description
+      t: >
+        Pokud se průzkumu zúčastníte anonymně, po ukončení relace
+        **nebudete mít znovu přístup ke svým datům**.
+    - key: accounts.continue_as_guest.action
+      t: Pokračovat jako host
+
+    - key: accounts.magic_link.no_email
+      t: Prosím vyplňte svůj e-mail
+    - key: accounts.magic_link.success
+      t: >
+        Zkontrolujte si doručenou poštu! Poslali jsme vám magický odkaz.
+        Kliknutím na něj potvrdíte svůj účet a můžete se přihlásit.
 
     ###########################################################################
     # FAQ
@@ -85,33 +135,116 @@ translations:
     - key: bracket.cancel
       t: Zrušit
 
+    - key: experience.leave_comment
+      t: Zanechat komentář (volitelné)
+    - key: experience.leave_comment_short
+      t: Zanechat komentář
+    - key: experience.tell_us_more
+      t: "Vybrali jste “{response}”. Řekněte nám víc o vaší volbě:"
+    - key: experience.tell_us_more_no_value
+      t: "Nevybrali jste si žádnou odpověď. Řekněte nám proč:"
+
 
     ###########################################################################
-    # Demographics (About You/User Info)
+    # Response
     ###########################################################################
 
-    - key: user_info.gender.description
+    - key: response.completion
+      t: '{completion}% dokončeno'
+
+    - key: response.details
+      t: Zahájeno {startedAt}, {completion}% dokončeno.
+
+    - key: response.view_results
+      t: Zobrazit výsledky
+
+    ###########################################################################
+    # Survey-Specific Intros
+    ###########################################################################
+
+    - key: general.js2020.survey_intro
       t: >
-        Co z následujícího vás nejlépe popisuje?
-
-
-        Tato data používáme ke sledování a vylepšování inkluzivity a vypovídací
-        hodnoty průzkumu. Tak jako všechny otázky, i tato je zcela dobrovolná.
-
-    - key: user_info.race_ethnicity.description
+        Rok 2020 byl těžkým pro všechny. Starosti o nejnovější javascriptové
+        frameworky se v porovnání jeví jako zbytečné.
+        Přesto se svět musí posunout dál a JavaScript jakbysmet.
+        Ještě jednou se s vaší pomocí pokusíme vytvořit komplexní obrázek
+        o tomto ekosystému, abychom zjistili trochu více o tom, kam se ubírá.
+    - key: general.css2021.survey_intro
       t: >
-        Co z následujícího vás nejlépe popisuje? Vyberte všechny relevantní
-        možnosti.
+        Hej CSS, co je nového? Cože, `@container`? Pevné poměry stran? A
+        `@property`?! To vypadá na pěkný kus práce!
 
-
-        Tato data používáme ke sledování a vylepšování inkluzivity a vypovídací
-        hodnoty průzkumu. Tak jako všechny otázky, i tato je zcela dobrovolná.
-
-    - key: user_info.disability_status.description
+        Přestože s pandemií jsme to měli v roce 2021 všichni těžké, zapáleným
+        přispěvatelům po celém světě se kupodivu i tak podařilo posunout CSS
+        zase o kus vpřed. A tak opět nastal čas prozkoumat ekosystém CSS a
+        zjistit, kam to celé směřuje. A když už v tom budete, možná se dovíte i
+        něco nového.
+    - key: general.js2021.survey_intro
       t: >
-        Co z následujícího vás nejlépe popisuje? Vyberte všechny relevantní
-        možnosti. Dočasná omezení nebo zranění mohou být také zahrnuta.
+        Nejdřív byly Olympijské hry 2020 posunuty zpět do roku 2021 a
+        aktuálně probíhá v roce 2022 výzkum State of JavaScript 2021!
+        Je tomu tak: mezi prací, rodinou a vším tím zmatkem ve světě
+        se některé věci trochu narušily. I když se jedná o rozdíl jednoho roku,
+        doufáme, že údaje poskytnuté samotným průzkumem budou stejně
+        informativní a srozumitelné jako doposud. A nebojte se,
+        koncem tohoto roku proběhne další průzkum,
+        který vše uvede zpět na pravou míru!
+    - key: general.graphql2022.survey_intro
+      t: >
+        Když byl GraphQL poprvé představen, nabízel radikálně nový způsob
+        vytváření rozhraní API s větší kontrolou, větší granularitou
+        a větší flexibilitou. Tato flexibilita však měla svou cenu v podobě
+        mimořádné složitosti a rychle se objevilo množství frameworků,
+        knihoven a služeb, které pomohly definovat patterny a pracovní postupy.
+        Nyní vůbec poprvé zkoumáme komunitu GraphQL, abychom zjistili, které
+        nástroje jsou nejoblíbenější a které funkce se skutečně používají.
+        S vaší pomocí se pojďme podívat, co GraphQL dokázal v roce 2022!
+    - key: general.css2022.survey_intro
+      t: >
+        CSS stále postupuje nevídanou rychlostí. Naštěstí jsme letos dostali
+        pomoc od někoho, kdo je v popředí všech těchto změn:
+        [Lea Verou](https://lea.verou.me/) se ujala vedení
+        a při výběru letošních otázek se zaměřila na
+        nové a nadcházející CSS vlastnosti.
+        A co víc, výsledky průzkumu mimojiné pomohou dodavatelům prohlížečů
+        s prioritizací vývojových plánů a zlepšení kompatibility mezi
+        prohlížeči. Pojďme se podívat, jak se CSS vyvíjelo v roce 2022!
 
+    ###########################################################################
+    # Survey-Specific FAQs
+    ###########################################################################
 
-        Tato data používáme ke sledování a vylepšování inkluzivity a vypovídací
-        hodnoty průzkumu. Tak jako všechny otázky, i tato je zcela dobrovolná.
+    - key: faq.learn_more_css2022
+      t: Kde se mohu dozvědět více?
+    - key: faq.learn_more_css2022.description
+      # yamllint disable rule:line-length
+      t: >
+        Další informace
+        [o loňském průzkumu naleznete zde](https://2021.stateofcss.com/en-US/about/).
+      # yamllint enable rule:line-length
+
+    - key: faq.survey_design_css2022
+      t: Jak byl tento průzkum navržen?
+    - key: faq.survey_design_css2022.description
+      # yamllint disable rule:line-length
+      t: >
+        Letos se díky grantu z [UI Fund](https://web.dev/ui-fund/)
+        [Lea Verou](https://lea.verou.me/) dokázala ujmout vedení a řídila
+        [proces návrhu otevřeného průzkumu](https://github.com/orgs/Devographics/projects/1/views/1)
+        na GitHubu.
+      # yamllint enable rule:line-length
+    - key: faq.results_released_css2022
+      t: Kdy budou zveřejněny výsledky?
+    - key: faq.results_released_css2022.description
+      t: >
+        Průzkum potrvá do 20. října 2022 a výsledky průzkumu budou zveřejněny
+        začátkem listopadu.
+
+    - key: faq.data_used_css2022
+      t: Jak budou tato data použita?
+    - key: faq.data_used_css2022.description
+      t: >
+        Všechna shromážděná data budou zveřejněna. Stanou se tak zdrojem jak
+        pro vývojáře, kteří s jejich pomocí informují ostatní o svých
+        technologických rozhodnutích, tak pro dodavatele prohlížečů,
+        kteří je používají k prioritizaci oblastí zájmu a plánování vývoje.
