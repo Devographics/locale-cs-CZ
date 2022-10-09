@@ -1,0 +1,15 @@
+locale: en-US
+translations:
+
+  - key: general.css2022.results_intro
+    t: |
+      CSS stále postupuje nevídanou rychlostí. Naštěstí jsme letos dostali
+      pomoc od někoho, kdo je v popředí všech těchto změn:
+      [Lea Verou](https://lea.verou.me/) se ujala vedení a při výběru letošních
+      otázek se zaměřila na nové a nadcházející CSS vlastnosti.
+
+      A co víc, výsledky průzkumu mimojiné pomohou dodavatelům prohlížečů
+      s prioritizací vývojových plánů a zlepšení kompatibility mezi
+      prohlížeči.
+
+      Pojďme se podívat, jak se CSS vyvíjelo v roce 2022!
