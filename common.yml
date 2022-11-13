@@ -58,10 +58,10 @@ translations:
     - key: general.preview_survey
       t: Zobrazit odpovědi »
     - key: general.finish_survey
-      t: Dokončit průzkum »
+      t: Dokončit průzkum
     - key: general.next_section
       t: Další oddíl
-    - key: general.prev_section
+    - key: general.previous_section
       t: Předchozí oddíl
     - key: general.survey_closed
       t: Tento průzkum byl ukončen.
