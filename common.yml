@@ -1,1136 +1,1135 @@
 locale: cs-CZ
 translations:
-    ###########################################################################
-    # General
-    ###########################################################################
+  ###########################################################################
+  # General
+  ###########################################################################
 
-    # homepage
-    - key: general.why_create_account
-      t: Proč je třeba, abych se registroval?
-    - key: general.create_account_reasons
-      t: >
-        O vytvoření účtu vás žádáme, protože:
+  # homepage
+  - key: general.why_create_account
+    t: Proč je třeba, abych se registroval?
+  - key: general.create_account_reasons
+    t: >
+      O vytvoření účtu vás žádáme, protože:
 
-        - chceme předejít duplicitním odpovědím
+      - chceme předejít duplicitním odpovědím
 
-        - chceme, abyste měli přístup ke svým datům
+      - chceme, abyste měli přístup ke svým datům
 
-        - průběžně ukládáme vaše odpovědi
+      - průběžně ukládáme vaše odpovědi
 
-        - upozorníme vás, jakmile budou výsledky zveřejněny
-    - key: general.survey_closed
-      t: >
-        Je nám líto, ale průzkum byl již ukončen. Můžete si projít své
-        odpovědi, už ale bohužel není možné je upravovat.
-    - key: general.survey_read_only
-      t: >
-        Průzkum si právě prohlížíte v režimu ke čtení.
-    - key: general.survey_preview
-      t: >
-        Tento průzkum je v režimu náhledu. Otázky v něm uvedené se mohou kdykoli
-        změnit a veškerá zadaná data budou v okamžiku spuštění průzkumu smazána.
-    - key: general.survey_read_only_back
-      t: >
-        Můžete se <a href="{link}">vrátit zpět</a>
-        na hlavní stránku a začít průzkum znovu nebo v něm pokračovat.
-    - key: general.take_survey
-      t: Zahájit průzkum {name} {year}
+      - upozorníme vás, jakmile budou výsledky zveřejněny
+  - key: general.survey_closed
+    t: >
+      Je nám líto, ale průzkum byl již ukončen. Můžete si projít své
+      odpovědi, už ale bohužel není možné je upravovat.
+  - key: general.survey_read_only
+    t: >
+      Průzkum si právě prohlížíte v režimu ke čtení.
+  - key: general.survey_preview
+    t: >
+      Tento průzkum je v režimu náhledu. Otázky v něm uvedené se mohou kdykoli
+      změnit a veškerá zadaná data budou v okamžiku spuštění průzkumu smazána.
+  - key: general.survey_read_only_back
+    t: >
+      Můžete se <a href="{link}">vrátit zpět</a>
+      na hlavní stránku a začít průzkum znovu nebo v něm pokračovat.
+  - key: general.take_survey
+    t: Zahájit průzkum {name} {year}
 
-    # surveys
-    - key: general.open_surveys
-      t: Otevřené průzkumy
-    - key: general.no_open_surveys
-      t: Momentálně nejsou otevřené žádné průzkumy.
-    - key: general.closed_surveys
-      t: Ukončené průzkumy
-    - key: general.no_closed_surveys
-      t: Momentálně nejsou zavřené žádné průzkumy.
-    - key: general.preview_surveys
-      t: Náhledy průzkumů
-    - key: general.no_preview_surveys
-      t: Momentálně nejsou k nahlédnutí žádné průzkumy.
-    - key: general.start_survey
-      t: Zahájit průzkum »
-    - key: general.continue_survey
-      t: Pokračovat v průzkumu »
-    - key: general.review_survey
-      t: Upravit odpovědi »
-    - key: general.preview_survey
-      t: Zobrazit odpovědi »
-    - key: general.finish_survey
-      t: Dokončit průzkum
-    - key: general.next_section
-      t: Další oddíl
-    - key: general.previous_section
-      t: Předchozí oddíl
-    - key: general.survey_closed
-      t: Tento průzkum byl ukončen.
-    - key: general.survey_results
-      t: Zobrazit výsledky průzkumu »
-    - key: general.surveys_available_languages
-      t: 'Průzkumy jsou dostupné v těchto jazycích:'
-    - key: general.help_us_translate
-      t: Pomozte nám přeložit průzkumy »
-    - key: general.translators
-      t: Překladatelé
-    - key: general.translation_help
-      t: Nápověda k překladům
-    - key: general.newly_added
-      t: Nově přidané tento rok
-    - key: general.new
-      t: Nové
-    - key: general.devographics_banner
-      t: >
-        <a href="https://www.devographics.com/" target="_blank">Devographics</a>
-        je nový název kolektivu pořádajícího průzkumy State of JavaScript,
-        CSS a GraphQL.
+  # surveys
+  - key: general.open_surveys
+    t: Otevřené průzkumy
+  - key: general.no_open_surveys
+    t: Momentálně nejsou otevřené žádné průzkumy.
+  - key: general.closed_surveys
+    t: Ukončené průzkumy
+  - key: general.no_closed_surveys
+    t: Momentálně nejsou zavřené žádné průzkumy.
+  - key: general.preview_surveys
+    t: Náhledy průzkumů
+  - key: general.no_preview_surveys
+    t: Momentálně nejsou k nahlédnutí žádné průzkumy.
+  - key: general.start_survey
+    t: Zahájit průzkum »
+  - key: general.continue_survey
+    t: Pokračovat v průzkumu »
+  - key: general.review_survey
+    t: Upravit odpovědi »
+  - key: general.preview_survey
+    t: Zobrazit odpovědi »
+  - key: general.finish_survey
+    t: Dokončit průzkum
+  - key: general.next_section
+    t: Další oddíl
+  - key: general.previous_section
+    t: Předchozí oddíl
+  - key: general.survey_closed
+    t: Tento průzkum byl ukončen.
+  - key: general.survey_results
+    t: Zobrazit výsledky průzkumu »
+  - key: general.surveys_available_languages
+    t: "Průzkumy jsou dostupné v těchto jazycích:"
+  - key: general.help_us_translate
+    t: Pomozte nám přeložit průzkumy »
+  - key: general.translators
+    t: Překladatelé
+  - key: general.translation_help
+    t: Nápověda k překladům
+  - key: general.newly_added
+    t: Nově přidané tento rok
+  - key: general.new
+    t: Nové
+  - key: general.devographics_banner
+    t: >
+      <a href="https://www.devographics.com/" target="_blank">Devographics</a>
+      je nový název kolektivu pořádajícího průzkumy State of JavaScript,
+      CSS a GraphQL.
 
-    # credits
-    - key: credits.thanks
-      t: Poděkování
-    - key: credits.contributors
-      t: Přispěvatelé
-    - key: credits.contributors.description
-      t: >
-        Zvláštní poděkování za pomoc při
-        vytváření průzkumu patří následujícím lidem.
-    - key: credits.accessibility
-      t: Konzultace přístupnosti
-    - key: credits.survey_design
-      t: Design průzkumu
-    - key: credits.logo_design
-      t: Design loga
-    - key: credits.mobile_testing
-      t: Mobilní testování
-    - key: credits.data_visualizations
-      t: Vizualizace dat
-    - key: credits.repo_architecture
-      t: Architektura repozitářů
-    - key: credits.code_refactoring
-      t: Refaktoring kódu
-    - key: credits.data_processing
-      t: Zpracování dat
-    - key: credits.back_end_development
-      t: Vývoj backendu
+  # credits
+  - key: credits.thanks
+    t: Poděkování
+  - key: credits.contributors
+    t: Přispěvatelé
+  - key: credits.contributors.description
+    t: >
+      Zvláštní poděkování za pomoc při
+      vytváření průzkumu patří následujícím lidem.
+  - key: credits.accessibility
+    t: Konzultace přístupnosti
+  - key: credits.survey_design
+    t: Design průzkumu
+  - key: credits.logo_design
+    t: Design loga
+  - key: credits.mobile_testing
+    t: Mobilní testování
+  - key: credits.data_visualizations
+    t: Vizualizace dat
+  - key: credits.repo_architecture
+    t: Architektura repozitářů
+  - key: credits.code_refactoring
+    t: Refaktoring kódu
+  - key: credits.data_processing
+    t: Zpracování dat
+  - key: credits.back_end_development
+    t: Vývoj backendu
 
-    # support
-    - key: general.support_from
-      t: Podpořili nás
+  # support
+  - key: general.support_from
+    t: Podpořili nás
 
-    # footer
-    - key: general.privacy_policy
-      t: Ochrana osobních údajů
-    - key: general.leave_issue
-      t: >
-        Máte dotaz? Našli jste chybu?
-        <a href="{link}" target="_blank">Založte issue</a>.
-    - key: general.emoji_icons
-      t: >
-        Emoji ikony od
-        <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
+  # footer
+  - key: general.privacy_policy
+    t: Ochrana osobních údajů
+  - key: general.leave_issue
+    t: >
+      Máte dotaz? Našli jste chybu?
+      <a href="{link}" target="_blank">Založte issue</a>.
+  - key: general.emoji_icons
+    t: >
+      Emoji ikony od
+      <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
 
-    # navigation
-    - key: general.table_of_contents
-      t: Obsah
-    - key: general.all_questions_optional
-      t: >
-          Poznámka: všechny otázky jsou nepovinné a jejich zodpovězení není
-          vyžadováno.
-    - key: general.data_is_saved
-      t: Vaše odpovědi se uloží při přechodu na další nebo předchozí otázku.
-    - key: general.close_nav
-      t: Zavřít navigaci
-    - key: general.open_nav
-      t: Otevřít navigaci
-    - key: general.more_actions
-      t: Další akce
-    - key: general.skip_to_content
-      t: Přejít na obsah
+  # navigation
+  - key: general.table_of_contents
+    t: Obsah
+  - key: general.all_questions_optional
+    t: >
+      Poznámka: všechny otázky jsou nepovinné a jejich zodpovězení není
+      vyžadováno.
+  - key: general.data_is_saved
+    t: Vaše odpovědi se uloží při přechodu na další nebo předchozí otázku.
+  - key: general.close_nav
+    t: Zavřít navigaci
+  - key: general.open_nav
+    t: Otevřít navigaci
+  - key: general.more_actions
+    t: Další akce
+  - key: general.skip_to_content
+    t: Přejít na obsah
 
-    # thanks
-    - key: general.back
-      t: Zpět
-    - key: general.thanks
-      t: >
-        Děkujeme za vaši účast v průzkumu!
+  # thanks
+  - key: general.back
+    t: Zpět
+  - key: general.thanks
+    t: >
+      Děkujeme za vaši účast v průzkumu!
 
-        Vaše odpovědi byly zaznamenány. Můžete si je prohlédnout nebo upravit
-        kdykoli před ukončením průzkumu.
+      Vaše odpovědi byly zaznamenány. Můžete si je prohlédnout nebo upravit
+      kdykoli před ukončením průzkumu.
 
-        Můžete nám také pomoci dát vědět o tomto průzkumu tím, že jej budete
-        sdílet. Každé sdílení se počítá a data z průzkumu tak budou ještě
-        reprezentativnější:
-    - key: thanks.learn_more_about
-      t: 'Některé z funkcí, o nichž byste se rádi dověděli více:'
-    - key: thanks.knowledge_score
-      t: Vědomostní skóre
-    - key: thanks.score_explanation
-      t: >
-        Už jste viděli nebo přímo použili
-        <span class="score-number score-number-known">{known}</span>
-        z celkem <span class="score-number score-number-total">{total}</span>
-        funkcí zmíněných v tomto průzkumu. Tím jste se umístili mezi prvních
-        <span class="score-number score-number-ranking">
-          {knowledgeRankingFromTop} %
-        </span>
-        respondentů.
-    - key: thanks.share_on_twitter
-      t: Sdílet na Twitteru
-    - key: thanks.share_score_message
-      t: >
-        Moje vědomostní skóre v letošním ročníku průzkumu #{hashtag} je
-        {score} %! Účastněte se průzkumu i vy: {shareUrl}
-    # share
-    - key: general.share_subject
-      t: >
-          Průzkum {surveyName}
-    - key: general.share_text
-      t: >
-          Letošní ročník průzkumu {surveyName} je otevřený! {link}
+      Můžete nám také pomoci dát vědět o tomto průzkumu tím, že jej budete
+      sdílet. Každé sdílení se počítá a data z průzkumu tak budou ještě
+      reprezentativnější:
+  - key: thanks.learn_more_about
+    t: "Některé z funkcí, o nichž byste se rádi dověděli více:"
+  - key: thanks.knowledge_score
+    t: Vědomostní skóre
+  - key: thanks.score_explanation
+    t: >
+      Už jste viděli nebo přímo použili
+      <span class="score-number score-number-known">{known}</span>
+      z celkem <span class="score-number score-number-total">{total}</span>
+      funkcí zmíněných v tomto průzkumu. Tím jste se umístili mezi prvních
+      <span class="score-number score-number-ranking">
+        {knowledgeRankingFromTop} %
+      </span>
+      respondentů.
+  - key: thanks.share_on_twitter
+    t: Sdílet na Twitteru
+  - key: thanks.share_score_message
+    t: >
+      Moje vědomostní skóre v letošním ročníku průzkumu #{hashtag} je
+      {score} %! Účastněte se průzkumu i vy: {shareUrl}
+  # share
+  - key: general.share_subject
+    t: >
+      Průzkum {surveyName}
+  - key: general.share_text
+    t: >
+      Letošní ročník průzkumu {surveyName} je otevřený! {link}
 
-    # forms
-    - key: forms.select_option
-      t: Vyberte možnost
-    - key: forms.clear_field
-      t: Vymazat otázku
+  # forms
+  - key: forms.select_option
+    t: Vyberte možnost
+  - key: forms.clear_field
+    t: Vymazat otázku
 
   # partners & sponsors
-    - key: sponsors.with_support_from
-      t: S jedinečnou podporou od
-    - key: sponsors.our_partners
-      t: Naši partneři
-    - key: sponsors.become_partner
-      t: Staňte se partnerem
+  - key: sponsors.with_support_from
+    t: S jedinečnou podporou od
+  - key: sponsors.our_partners
+    t: Naši partneři
+  - key: sponsors.become_partner
+    t: Staňte se partnerem
 
-    # 404
-    - key: notfound.title
-      t: 404 Nenalezeno
-    - key: notfound.description
-      t: Omlouváme se, ale nenašeli jsme to, co hledáte.
+  # 404
+  - key: notfound.title
+    t: 404 Nenalezeno
+  - key: notfound.description
+    t: Omlouváme se, ale nenašeli jsme to, co hledáte.
 
-    # other
-    - key: general.join_discord
-      t: Přidejte se k nám na <a href="{link}">Discord</a>.
-    - key: general.translator_mode
-      t: Stiskněte option/alt pro zapnutí režimu překladu.
-    - key: general.charts_nivo
-      t: Grafy vyrobeny s pomocí <a href="{link}">Nivo</a>.
-    - key: general.made_by_devographics
-      t: Vytvořili <a href="{link}">Devographics</a>
-    - key: general.view_code_example
-      t: Zobrazit ukázku kódu
-    - key: general.feature_code_example
-      t: "**{featureName}** ukázka kódu"
-    - key: general.code_example
-      t: Ukázka kódu
+  # other
+  - key: general.join_discord
+    t: Přidejte se k nám na <a href="{link}">Discord</a>.
+  - key: general.translator_mode
+    t: Stiskněte option/alt pro zapnutí režimu překladu.
+  - key: general.charts_nivo
+    t: Grafy vyrobeny s pomocí <a href="{link}">Nivo</a>.
+  - key: general.made_by_devographics
+    t: Vytvořili <a href="{link}">Devographics</a>
+  - key: general.view_code_example
+    t: Zobrazit ukázku kódu
+  - key: general.feature_code_example
+    t: "**{featureName}** ukázka kódu"
+  - key: general.code_example
+    t: Ukázka kódu
 
-    ###########################################################################
-    # Nav
-    ###########################################################################
+  ###########################################################################
+  # Nav
+  ###########################################################################
 
-    - key: nav.surveys
-      t: Průzkumy
-    - key: nav.account
-      t: Můj účet
+  - key: nav.surveys
+    t: Průzkumy
+  - key: nav.account
+    t: Můj účet
 
-    ###########################################################################
-    # Sections
-    ###########################################################################
+  ###########################################################################
+  # Sections
+  ###########################################################################
 
-    - key: sections.user_info.title
-      t: O vás
-    - key: sections.user_info.description
-      t: Prozraďte nám něco o sobě.
+  - key: sections.user_info.title
+    t: O vás
+  - key: sections.user_info.description
+    t: Prozraďte nám něco o sobě.
 
-    - key: sections.features.title
-      t: Funkcionalita
-    - key: sections.features.description
-      t: Syntaxe, klíčová slova a další funkce jazyka.
+  - key: sections.features.title
+    t: Funkcionalita
+  - key: sections.features.description
+    t: Syntaxe, klíčová slova a další funkce jazyka.
 
-    - key: sections.resources.title
-      t: Zdroje
-    - key: sections.resources.description
-      t: Jaké zdroje o {topic} sledujete?
+  - key: sections.resources.title
+    t: Zdroje
+  - key: sections.resources.description
+    t: Jaké zdroje o {topic} sledujete?
 
-    - key: sections.opinions.title
-      t: Názory
-    - key: sections.opinions.description
-      t: Co si myslíte o {topic}?
+  - key: sections.opinions.title
+    t: Názory
+  - key: sections.opinions.description
+    t: Co si myslíte o {topic}?
 
-    - key: sections.other_tools.title
-      t: Další nástroje
-    - key: sections.other_tools.description
-      t: >
-        Z následujícíh nástrojů a technologií zvolte pouze ty, které používáte
-        pravidelně.
+  - key: sections.other_tools.title
+    t: Další nástroje
+  - key: sections.other_tools.description
+    t: >
+      Z následujícíh nástrojů a technologií zvolte pouze ty, které používáte
+      pravidelně.
 
-    - key: sections.report.title
-      t: Přehled trendů
+  - key: sections.report.title
+    t: Přehled trendů
 
-    ###########################################################################
-    # Options
-    ###########################################################################
+  ###########################################################################
+  # Options
+  ###########################################################################
 
-    # features
-    - key: options.features.never_heard
-      t: <span aria-hidden="true">🤷</span> Neslyšel jsem/Nevím přesně, o co jde
-    - key: options.features.heard
-      t: <span aria-hidden="true">✅</span> Znám, ale nepoužil jsem
-    - key: options.features.used
-      t: <span aria-hidden="true">👍</span> Už jsem použil
+  # features
+  - key: options.features.never_heard
+    t: <span aria-hidden="true">🤷</span> Neslyšel jsem/Nevím přesně, o co jde
+  - key: options.features.heard
+    t: <span aria-hidden="true">✅</span> Znám, ale nepoužil jsem
+  - key: options.features.used
+    t: <span aria-hidden="true">👍</span> Už jsem použil
 
-    # features (no emoji)
-    - key: options.features.never_heard.label
-      t: Neslyšel jsem/Nevím přesně, o co jde
-    - key: options.features.heard.label
-      t: Znám, ale nepoužil jsem
-    - key: options.features.used.label
-      t: Už jsem použil
+  # features (no emoji)
+  - key: options.features.never_heard.label
+    t: Neslyšel jsem/Nevím přesně, o co jde
+  - key: options.features.heard.label
+    t: Znám, ale nepoužil jsem
+  - key: options.features.used.label
+    t: Už jsem použil
 
-    # features (short versions)
-    - key: options.features.never_heard.short
-      t: Nevím přesně, o co jde
-    - key: options.features.heard.short
-      t: Znám
-    - key: options.features.used.short
-      t: Už jsem použil
+  # features (short versions)
+  - key: options.features.never_heard.short
+    t: Nevím přesně, o co jde
+  - key: options.features.heard.short
+    t: Znám
+  - key: options.features.used.short
+    t: Už jsem použil
 
-    # patterns
-    - key: options.patterns.use_never
-      t: Vyhýbám se tomu
-    - key: options.patterns.use_sparingly
-      t: Užívám zřídka
-    - key: options.patterns.use_neutral
-      t: Neutrální
-    - key: options.patterns.use_frequently
-      t: Používám často
-    - key: options.patterns.use_always
-      t: Používám kdykoli to jde
+  # patterns
+  - key: options.patterns.use_never
+    t: Vyhýbám se tomu
+  - key: options.patterns.use_sparingly
+    t: Užívám zřídka
+  - key: options.patterns.use_neutral
+    t: Neutrální
+  - key: options.patterns.use_frequently
+    t: Používám často
+  - key: options.patterns.use_always
+    t: Používám kdykoli to jde
 
-    # tools experience
-    - key: options.tools.never_heard
-      t: <span aria-hidden="true">🤷</span> Neslyšel jsem/Nevím přesně, o co jde
-    - key: options.tools.interested
-      t: <span aria-hidden="true">✅</span> Slyšel jsem o tom > Rád bych to uměl
-    - key: options.tools.not_interested
-      t: <span aria-hidden="true">🚫</span> Slyšel jsem o tom > Nemám zájem
-    - key: options.tools.would_use
-      t: <span aria-hidden="true">👍</span> Použil jsem > Použil bych znovu
-    - key: options.tools.would_not_use
-      t: <<span aria-hidden="true">👎</span> Použil jsem > Stačilo jednou
+  # tools experience
+  - key: options.tools.never_heard
+    t: <span aria-hidden="true">🤷</span> Neslyšel jsem/Nevím přesně, o co jde
+  - key: options.tools.interested
+    t: <span aria-hidden="true">✅</span> Slyšel jsem o tom > Rád bych to uměl
+  - key: options.tools.not_interested
+    t: <span aria-hidden="true">🚫</span> Slyšel jsem o tom > Nemám zájem
+  - key: options.tools.would_use
+    t: <span aria-hidden="true">👍</span> Použil jsem > Použil bych znovu
+  - key: options.tools.would_not_use
+    t: <<span aria-hidden="true">👎</span> Použil jsem > Stačilo jednou
 
-    # tools experience (no emoji)
-    - key: options.tools.never_heard.legend
-      t: Neslyšel jsem/Nevím přesně, o co jde
-    - key: options.tools.interested.legend
-      t: Slyšel jsem o tom > Rád bych to uměl
-    - key: options.tools.not_interested.legend
-      t: Slyšel jsem o tom > Nemám zájem
-    - key: options.tools.would_use.legend
-      t: Použil jsem > Použil bych znovu
-    - key: options.tools.would_not_use.legend
-      t: Použil jsem > Stačilo jednou
+  # tools experience (no emoji)
+  - key: options.tools.never_heard.legend
+    t: Neslyšel jsem/Nevím přesně, o co jde
+  - key: options.tools.interested.legend
+    t: Slyšel jsem o tom > Rád bych to uměl
+  - key: options.tools.not_interested.legend
+    t: Slyšel jsem o tom > Nemám zájem
+  - key: options.tools.would_use.legend
+    t: Použil jsem > Použil bych znovu
+  - key: options.tools.would_not_use.legend
+    t: Použil jsem > Stačilo jednou
 
-    # tools experience (short versions)
-    - key: options.tools.never_heard.short
-      t: Nevím přesně, o co jde
-    - key: options.tools.interested.short
-      t: Mám zájem
-    - key: options.tools.not_interested.short
-      t: Nemám zájem
-    - key: options.tools.would_use.short
-      t: Použil bych znovu
-    - key: options.tools.would_not_use.short
-      t: Stačilo jednou
+  # tools experience (short versions)
+  - key: options.tools.never_heard.short
+    t: Nevím přesně, o co jde
+  - key: options.tools.interested.short
+    t: Mám zájem
+  - key: options.tools.not_interested.short
+    t: Nemám zájem
+  - key: options.tools.would_use.short
+    t: Použil bych znovu
+  - key: options.tools.would_not_use.short
+    t: Stačilo jednou
 
-    # happiness
-    - key: options.happiness.0
-      t: Holé zoufalství
-    - key: options.happiness.1
-      t: Nelíbí se mi to
-    - key: options.happiness.2
-      t: Neutrální
-    - key: options.happiness.3
-      t: Líbí se mi to
-    - key: options.happiness.4
-      t: Jsem nadšený
+  # happiness
+  - key: options.happiness.0
+    t: Holé zoufalství
+  - key: options.happiness.1
+    t: Nelíbí se mi to
+  - key: options.happiness.2
+    t: Neutrální
+  - key: options.happiness.3
+    t: Líbí se mi to
+  - key: options.happiness.4
+    t: Jsem nadšený
 
-    # happiness (short version)
-    - key: options.happiness.0.short
-      t: Holé zoufalství
-    - key: options.happiness.1.short
-      t: Nelíbí se mi to
-    - key: options.happiness.2.short
-      t: Neutrální
-    - key: options.happiness.3.short
-      t: Líbí se mi to
-    - key: options.happiness.4.short
-      t: Jsem nadšený
+  # happiness (short version)
+  - key: options.happiness.0.short
+    t: Holé zoufalství
+  - key: options.happiness.1.short
+    t: Nelíbí se mi to
+  - key: options.happiness.2.short
+    t: Neutrální
+  - key: options.happiness.3.short
+    t: Líbí se mi to
+  - key: options.happiness.4.short
+    t: Jsem nadšený
 
-    # opinions
-    - key: options.opinions.0
-      t: Nesouhlasím
-    - key: options.opinions.1
-      t: Spíše nesouhlasím
-    - key: options.opinions.2
-      t: Neutrální
-    - key: options.opinions.3
-      t: Spíše souhlasím
-    - key: options.opinions.4
-      t: Souhlasím
+  # opinions
+  - key: options.opinions.0
+    t: Nesouhlasím
+  - key: options.opinions.1
+    t: Spíše nesouhlasím
+  - key: options.opinions.2
+    t: Neutrální
+  - key: options.opinions.3
+    t: Spíše souhlasím
+  - key: options.opinions.4
+    t: Souhlasím
 
-    # age
-    - key: options.age.range_less_than_10
-      t: 10 a méně let
-    - key: options.age.range_10_18
-      t: 11–18 let
-    - key: options.age.range_18_24
-      t: 19–24 let
-    - key: options.age.range_25_34
-      t: 25–34 let
-    - key: options.age.range_35_44
-      t: 35–44 let
-    - key: options.age.range_45_54
-      t: 45–54 let
-    - key: options.age.range_55_64
-      t: 55–64 let
-    - key: options.age.range_more_than_65
-      t: 65 a více let
+  # age
+  - key: options.age.range_less_than_10
+    t: 10 a méně let
+  - key: options.age.range_10_18
+    t: 11–18 let
+  - key: options.age.range_18_24
+    t: 19–24 let
+  - key: options.age.range_25_34
+    t: 25–34 let
+  - key: options.age.range_35_44
+    t: 35–44 let
+  - key: options.age.range_45_54
+    t: 45–54 let
+  - key: options.age.range_55_64
+    t: 55–64 let
+  - key: options.age.range_more_than_65
+    t: 65 a více let
 
-    # age (short versions)
-    - key: options.age.range_less_than_10.short
-      t: '<=10'
-    - key: options.age.range_10_18.short
-      t: 11–18
-    - key: options.age.range_18_24.short
-      t: 19–24
-    - key: options.age.range_25_34.short
-      t: 25–34
-    - key: options.age.range_35_44.short
-      t: 35–44
-    - key: options.age.range_45_54.short
-      t: 45–54
-    - key: options.age.range_55_64.short
-      t: 55–64
-    - key: options.age.range_more_than_65.short
-      t: '>65'
+  # age (short versions)
+  - key: options.age.range_less_than_10.short
+    t: "<=10"
+  - key: options.age.range_10_18.short
+    t: 11–18
+  - key: options.age.range_18_24.short
+    t: 19–24
+  - key: options.age.range_25_34.short
+    t: 25–34
+  - key: options.age.range_35_44.short
+    t: 35–44
+  - key: options.age.range_45_54.short
+    t: 45–54
+  - key: options.age.range_55_64.short
+    t: 55–64
+  - key: options.age.range_more_than_65.short
+    t: ">65"
 
-    # years of experience
-    - key: options.years_of_experience.range_less_than_1
-      t: Méně než rok
-    - key: options.years_of_experience.range_1_2
-      t: 1 až 2 roky
-    - key: options.years_of_experience.range_2_5
-      t: 2 až 5 let
-    - key: options.years_of_experience.range_5_10
-      t: 5 až 10 let
-    - key: options.years_of_experience.range_10_20
-      t: 10 až 20 let
-    - key: options.years_of_experience.range_more_than_20
-      t: Více než 20 let
+  # years of experience
+  - key: options.years_of_experience.range_less_than_1
+    t: Méně než rok
+  - key: options.years_of_experience.range_1_2
+    t: 1 až 2 roky
+  - key: options.years_of_experience.range_2_5
+    t: 2 až 5 let
+  - key: options.years_of_experience.range_5_10
+    t: 5 až 10 let
+  - key: options.years_of_experience.range_10_20
+    t: 10 až 20 let
+  - key: options.years_of_experience.range_more_than_20
+    t: Více než 20 let
 
-    # years of experience (short versions)
-    - key: options.years_of_experience.range_less_than_1.short
-      t: '< 1'
-    - key: options.years_of_experience.range_1_2.short
-      t: 1–2
-    - key: options.years_of_experience.range_2_5.short
-      t: 2–5
-    - key: options.years_of_experience.range_5_10.short
-      t: 5–10
-    - key: options.years_of_experience.range_10_20.short
-      t: 10–20
-    - key: options.years_of_experience.range_more_than_20.short
-      t: '> 20'
+  # years of experience (short versions)
+  - key: options.years_of_experience.range_less_than_1.short
+    t: "< 1"
+  - key: options.years_of_experience.range_1_2.short
+    t: 1–2
+  - key: options.years_of_experience.range_2_5.short
+    t: 2–5
+  - key: options.years_of_experience.range_5_10.short
+    t: 5–10
+  - key: options.years_of_experience.range_10_20.short
+    t: 10–20
+  - key: options.years_of_experience.range_more_than_20.short
+    t: "> 20"
 
-    # company size
-    - key: options.company_size.range_1
-      t: Jediný zaměstnanec
-    - key: options.company_size.range_1_5
-      t: 1 až 5 zaměstnanců
-    - key: options.company_size.range_5_10
-      t: 5 až 10 zaměstnanců
-    - key: options.company_size.range_10_20
-      t: 10 až 20 zaměstnanců
-    - key: options.company_size.range_20_50
-      t: 20 až 50 zaměstnanců
-    - key: options.company_size.range_50_100
-      t: 50 až 100 zaměstnanců
-    - key: options.company_size.range_100_1000
-      t: 100 až 1000 zaměstnanců
-    - key: options.company_size.range_more_than_1000
-      t: Více než 1000 zaměstnanců
+  # company size
+  - key: options.company_size.range_1
+    t: Jediný zaměstnanec
+  - key: options.company_size.range_1_5
+    t: 1 až 5 zaměstnanců
+  - key: options.company_size.range_5_10
+    t: 5 až 10 zaměstnanců
+  - key: options.company_size.range_10_20
+    t: 10 až 20 zaměstnanců
+  - key: options.company_size.range_20_50
+    t: 20 až 50 zaměstnanců
+  - key: options.company_size.range_50_100
+    t: 50 až 100 zaměstnanců
+  - key: options.company_size.range_100_1000
+    t: 100 až 1000 zaměstnanců
+  - key: options.company_size.range_more_than_1000
+    t: Více než 1000 zaměstnanců
 
-    # company size (short versions)
-    - key: options.company_size.range_1.short
-      t: 1
-    - key: options.company_size.range_1_5.short
-      t: 1–5
-    - key: options.company_size.range_5_10.short
-      t: 5–10
-    - key: options.company_size.range_10_20.short
-      t: 10–20
-    - key: options.company_size.range_20_50.short
-      t: 20–50
-    - key: options.company_size.range_50_100.short
-      t: 50–100
-    - key: options.company_size.range_100_1000.short
-      t: 100–1000
-    - key: options.company_size.range_more_than_1000.short
-      t: '> 1000'
+  # company size (short versions)
+  - key: options.company_size.range_1.short
+    t: 1
+  - key: options.company_size.range_1_5.short
+    t: 1–5
+  - key: options.company_size.range_5_10.short
+    t: 5–10
+  - key: options.company_size.range_10_20.short
+    t: 10–20
+  - key: options.company_size.range_20_50.short
+    t: 20–50
+  - key: options.company_size.range_50_100.short
+    t: 50–100
+  - key: options.company_size.range_100_1000.short
+    t: 100–1000
+  - key: options.company_size.range_more_than_1000.short
+    t: "> 1000"
 
-    # salary
-    - key: options.yearly_salary.range_work_for_free
-      t: Pracuji zadarmo
-    - key: options.yearly_salary.range_0_10
-      t: 0 – 10 000 USD (0 – 250 000 Kč)
-    - key: options.yearly_salary.range_10_30
-      t: 10 000 – 30 000 USD (250 000 – 750 000 Kč)
-    - key: options.yearly_salary.range_30_50
-      t: 30 000 – 50 000 USD (750 000 – 1 250 000 Kč)
-    - key: options.yearly_salary.range_50_100
-      t: 50 000 – 100 000 USD (1 250 000 – 2 500 000 Kč)
-    - key: options.yearly_salary.range_100_200
-      t: 100 000 – 200 000 USD (2 500 000 – 5 000 000 Kč)
-    - key: options.yearly_salary.range_more_than_200
-      t: Více než 200 000 USD (5 000 000 Kč)
+  # salary
+  - key: options.yearly_salary.range_work_for_free
+    t: Pracuji zadarmo
+  - key: options.yearly_salary.range_0_10
+    t: 0 – 10 000 USD (0 – 250 000 Kč)
+  - key: options.yearly_salary.range_10_30
+    t: 10 000 – 30 000 USD (250 000 – 750 000 Kč)
+  - key: options.yearly_salary.range_30_50
+    t: 30 000 – 50 000 USD (750 000 – 1 250 000 Kč)
+  - key: options.yearly_salary.range_50_100
+    t: 50 000 – 100 000 USD (1 250 000 – 2 500 000 Kč)
+  - key: options.yearly_salary.range_100_200
+    t: 100 000 – 200 000 USD (2 500 000 – 5 000 000 Kč)
+  - key: options.yearly_salary.range_more_than_200
+    t: Více než 200 000 USD (5 000 000 Kč)
 
-    # salary (short versions)
-    - key: options.yearly_salary.range_work_for_free.short
-      t: 0 USD (0 Kč)
-    - key: options.yearly_salary.range_0_10.short
-      t: 0 – 10 000 USD (0 – 250 000 Kč)
-    - key: options.yearly_salary.range_10_30.short
-      t: 10 000 – 30 000 USD (250 000 – 750 000 Kč)
-    - key: options.yearly_salary.range_30_50.short
-      t: 30 000 – 50 000 USD (750 000 – 1 250 000 Kč)
-    - key: options.yearly_salary.range_50_100.short
-      t: 50 000 – 100 000 USD (1 250 000 – 2 500 000 Kč)
-    - key: options.yearly_salary.range_100_200.short
-      t: 100 000 – 200 000 USD (2 500 000 – 5 000 000 Kč)
-    - key: options.yearly_salary.range_more_than_200.short
-      t: '> 200 000 USD (5 000 000 Kč)'
+  # salary (short versions)
+  - key: options.yearly_salary.range_work_for_free.short
+    t: 0 USD (0 Kč)
+  - key: options.yearly_salary.range_0_10.short
+    t: 0 – 10 000 USD (0 – 250 000 Kč)
+  - key: options.yearly_salary.range_10_30.short
+    t: 10 000 – 30 000 USD (250 000 – 750 000 Kč)
+  - key: options.yearly_salary.range_30_50.short
+    t: 30 000 – 50 000 USD (750 000 – 1 250 000 Kč)
+  - key: options.yearly_salary.range_50_100.short
+    t: 50 000 – 100 000 USD (1 250 000 – 2 500 000 Kč)
+  - key: options.yearly_salary.range_100_200.short
+    t: 100 000 – 200 000 USD (2 500 000 – 5 000 000 Kč)
+  - key: options.yearly_salary.range_more_than_200.short
+    t: "> 200 000 USD (5 000 000 Kč)"
 
-    # Proficiency (generic versions)
-    - key: options.proficiency.0
-      t: Neovládám
-    - key: options.proficiency.1
-      t: Začátečník
-    - key: options.proficiency.2
-      t: Středně pokročilý
-    - key: options.proficiency.3
-      t: Pokročilý
-    - key: options.proficiency.4
-      t: Expert
+  # Proficiency (generic versions)
+  - key: options.proficiency.0
+    t: Neovládám
+  - key: options.proficiency.1
+    t: Začátečník
+  - key: options.proficiency.2
+    t: Středně pokročilý
+  - key: options.proficiency.3
+    t: Pokročilý
+  - key: options.proficiency.4
+    t: Expert
 
-    # Gender
+  # Gender
 
-    - key: options.gender.female
-      t: Žena
-    - key: options.gender.male
-      t: Muž
-    - key: options.gender.non_binary
-      t: Nebinární nebo nekonformní
-    - key: options.gender.questioning
-      t: V řešení
-    - key: options.gender.prefer_not_to_say
-      t: Nechci uvádět
-    - key: options.gender.not_listed
-      t: Neuvedeno
+  - key: options.gender.female
+    t: Žena
+  - key: options.gender.male
+    t: Muž
+  - key: options.gender.non_binary
+    t: Nebinární nebo nekonformní
+  - key: options.gender.questioning
+    t: V řešení
+  - key: options.gender.prefer_not_to_say
+    t: Nechci uvádět
+  - key: options.gender.not_listed
+    t: Neuvedeno
 
-    # Gender (short)
+  # Gender (short)
 
-    - key: options.gender.female.short
-      t: Žena
-    - key: options.gender.male.short
-      t: Muž
-    - key: options.gender.non_binary.short
-      t: Nebinární nebo nekonformní
-    - key: options.gender.questioning.short
-      t: V řešení
-    - key: options.gender.prefer_not_to_say.short
-      t: Nechci uvádět
-    - key: options.gender.not_listed.short
-      t: Neuvedeno
+  - key: options.gender.female.short
+    t: Žena
+  - key: options.gender.male.short
+    t: Muž
+  - key: options.gender.non_binary.short
+    t: Nebinární nebo nekonformní
+  - key: options.gender.questioning.short
+    t: V řešení
+  - key: options.gender.prefer_not_to_say.short
+    t: Nechci uvádět
+  - key: options.gender.not_listed.short
+    t: Neuvedeno
 
-    # Race & Ethnicity
+  # Race & Ethnicity
 
-    - key: options.race_ethnicity.white_european
-      t: Bílý nebo původem evropský
-    - key: options.race_ethnicity.south_asian
-      t: Jihoasijský
-    - key: options.race_ethnicity.south_east_asian
-      t: Jihovýchodoasijský
-    - key: options.race_ethnicity.hispanic_latin
-      t: Hispánský nebo latino
-    - key: options.race_ethnicity.east_asian
-      t: Východoasijský
-    - key: options.race_ethnicity.middle_eastern
-      t: Středovýchodní
-    - key: options.race_ethnicity.black_african
-      t: Černý nebo původem africký
-    - key: options.race_ethnicity.multiracial
-      t: Smíšený
-    - key: options.race_ethnicity.biracial
-      t: Biracální
-    - key: options.race_ethnicity.native_american_islander_australian
-      t: Americký či tichomořský domorodec nebo Austrálec
-    - key: options.race_ethnicity.not_listed
-      t: Neuvedeno
+  - key: options.race_ethnicity.white_european
+    t: Bílý nebo původem evropský
+  - key: options.race_ethnicity.south_asian
+    t: Jihoasijský
+  - key: options.race_ethnicity.south_east_asian
+    t: Jihovýchodoasijský
+  - key: options.race_ethnicity.hispanic_latin
+    t: Hispánský nebo latino
+  - key: options.race_ethnicity.east_asian
+    t: Východoasijský
+  - key: options.race_ethnicity.middle_eastern
+    t: Středovýchodní
+  - key: options.race_ethnicity.black_african
+    t: Černý nebo původem africký
+  - key: options.race_ethnicity.multiracial
+    t: Smíšený
+  - key: options.race_ethnicity.biracial
+    t: Biracální
+  - key: options.race_ethnicity.native_american_islander_australian
+    t: Americký či tichomořský domorodec nebo Austrálec
+  - key: options.race_ethnicity.not_listed
+    t: Neuvedeno
 
-    # Race & Ethnicity (short)
-    - key: options.race_ethnicity.white_european.short
-      t: Bílý nebo původem evropský
-    - key: options.race_ethnicity.south_asian.short
-      t: Jihoasijský
-    - key: options.race_ethnicity.south_east_asian.short
-      t: Jihovýchodoasijský
-    - key: options.race_ethnicity.hispanic_latin.short
-      t: Hispánský nebo latino
-    - key: options.race_ethnicity.east_asian.short
-      t: Východoasijský
-    - key: options.race_ethnicity.middle_eastern.short
-      t: Středovýchodní
-    - key: options.race_ethnicity.black_african.short
-      t: Černý nebo původem africký
-    - key: options.race_ethnicity.multiracial.short
-      t: Smíšený
-    - key: options.race_ethnicity.biracial.short
-      t: Biracální
-    - key: options.race_ethnicity.native_american_islander_australian.short
-      t: Americký či tichomořský domorodec nebo Austrálec
-    - key: options.race_ethnicity.not_listed.short
-      t: Neuvedeno
+  # Race & Ethnicity (short)
+  - key: options.race_ethnicity.white_european.short
+    t: Bílý nebo původem evropský
+  - key: options.race_ethnicity.south_asian.short
+    t: Jihoasijský
+  - key: options.race_ethnicity.south_east_asian.short
+    t: Jihovýchodoasijský
+  - key: options.race_ethnicity.hispanic_latin.short
+    t: Hispánský nebo latino
+  - key: options.race_ethnicity.east_asian.short
+    t: Východoasijský
+  - key: options.race_ethnicity.middle_eastern.short
+    t: Středovýchodní
+  - key: options.race_ethnicity.black_african.short
+    t: Černý nebo původem africký
+  - key: options.race_ethnicity.multiracial.short
+    t: Smíšený
+  - key: options.race_ethnicity.biracial.short
+    t: Biracální
+  - key: options.race_ethnicity.native_american_islander_australian.short
+    t: Americký či tichomořský domorodec nebo Austrálec
+  - key: options.race_ethnicity.not_listed.short
+    t: Neuvedeno
 
-    # Disability Status
-    - key: options.disability_status.visual_impairments
-      t: >
-        Zrakové vady (např. slepota, barvoslepost apod.)
-    - key: options.disability_status.hearing_impairments
-      t: >
-        Vady sluchu (např. hluchota, tinnitus apod.)
-    - key: options.disability_status.mobility_impairments
-      t: >
-        Omezení pohyblivosti (např. artritida, karpální tunel apod.)
-    - key: options.disability_status.cognitive_impairments
-      t: >
-        Kognitivní vady (např. nervozita, dyslexie apod.)
-    - key: options.disability_status.not_listed
-      t: >
-        Neuvedeno
+  # Disability Status
+  - key: options.disability_status.visual_impairments
+    t: >
+      Zrakové vady (např. slepota, barvoslepost apod.)
+  - key: options.disability_status.hearing_impairments
+    t: >
+      Vady sluchu (např. hluchota, tinnitus apod.)
+  - key: options.disability_status.mobility_impairments
+    t: >
+      Omezení pohyblivosti (např. artritida, karpální tunel apod.)
+  - key: options.disability_status.cognitive_impairments
+    t: >
+      Kognitivní vady (např. nervozita, dyslexie apod.)
+  - key: options.disability_status.not_listed
+    t: >
+      Neuvedeno
 
-    # Disability Status (short)
-    - key: options.disability_status.visual_impairments
-      t: >
-        Vady zraku
-    - key: options.disability_status.hearing_impairments
-      t: >
-        Vady sluchu
-    - key: options.disability_status.mobility_impairments
-      t: >
-        Omezení pohyblivosti
-    - key: options.disability_status.cognitive_impairments
-      t: >
-        Kognitivní vady
-    - key: options.disability_status.not_listed
-      t: >
-        Neuvedeno
+  # Disability Status (short)
+  - key: options.disability_status.visual_impairments
+    t: >
+      Vady zraku
+  - key: options.disability_status.hearing_impairments
+    t: >
+      Vady sluchu
+  - key: options.disability_status.mobility_impairments
+    t: >
+      Omezení pohyblivosti
+  - key: options.disability_status.cognitive_impairments
+    t: >
+      Kognitivní vady
+  - key: options.disability_status.not_listed
+    t: >
+      Neuvedeno
 
-    # Form Factors
-    - key: options.form_factors.desktop
-      t: Desktop
-    - key: options.form_factors.keyboard_only
-      t: Desktop pouze s klávesnicí
-    - key: options.form_factors.smartphone
-      t: Smartphone
-    - key: options.form_factors.feature_phone
-      t: Feature phone
-    - key: options.form_factors.tablet
-      t: Tablet
-    - key: options.form_factors.smart_watch
-      t: Chytré hodinky
-    - key: options.form_factors.tv
-      t: TV
-    - key: options.form_factors.gaming_console
-      t: Herní konzole
-    - key: options.form_factors.screen_reader
-      t: Čtečka obrazovky
-    - key: options.form_factors.print
-      t: Tištěný výstup
-    - key: options.form_factors.testing_tools
-      t: Testovací nástroje (Axe, Lighthouse atd.)
-    - key: options.form_factors.vision_simulator
-      t: Simulátor zrakových vad (barvoslepost apod.)
+  # Form Factors
+  - key: options.form_factors.desktop
+    t: Desktop
+  - key: options.form_factors.keyboard_only
+    t: Desktop pouze s klávesnicí
+  - key: options.form_factors.smartphone
+    t: Smartphone
+  - key: options.form_factors.feature_phone
+    t: Feature phone
+  - key: options.form_factors.tablet
+    t: Tablet
+  - key: options.form_factors.smart_watch
+    t: Chytré hodinky
+  - key: options.form_factors.tv
+    t: TV
+  - key: options.form_factors.gaming_console
+    t: Herní konzole
+  - key: options.form_factors.screen_reader
+    t: Čtečka obrazovky
+  - key: options.form_factors.print
+    t: Tištěný výstup
+  - key: options.form_factors.testing_tools
+    t: Testovací nástroje (Axe, Lighthouse atd.)
+  - key: options.form_factors.vision_simulator
+    t: Simulátor zrakových vad (barvoslepost apod.)
 
-    # Industry Sector
-    - key: options.industry_sector.ecommerce
-      t: Ecommerce a retail
-    - key: options.industry_sector.news_media
-      t: Noviny, média, blogy
-    - key: options.industry_sector.healthcare
-      t: Zdravotnictví
-    - key: options.industry_sector.finance
-      t: Finance
-    - key: options.industry_sector.programming_tools
-      t: Programování a technologie
-    - key: options.industry_sector.socialmedia
-      t: Sociální média
-    - key: options.industry_sector.marketing_tools
-      t: Marketingové/prodejní/analytické nástroje
-    - key: options.industry_sector.education
-      t: Vzdělávání
-    - key: options.industry_sector.real_estate
-      t: Reality
-    - key: options.industry_sector.government
-      t: Státní správa
-    - key: options.industry_sector.entertainment
-      t: Zábavní průmysl
-    - key: options.industry_sector.consulting
-      t: Konzultace a služby
-    - key: options.industry_sector.travel
-      t: Cestování
-    - key: options.industry_sector.insurance
-      t: Pojišťovnictví
-    - key: options.industry_sector.logistics
-      t: Logistika
-    - key: options.industry_sector.energy
-      t: Energetika
-    - key: options.industry_sector.telecommunications
-      t: Telekomunikace
-    - key: options.industry_sector.student
-      t: Studium
-    - key: options.industry_sector.hospitality
-      t: Pohostinství
-    - key: options.industry_sector.cyber_security
-      t: Kyberbezpečnost
-    - key: options.industry_sector.construction
-      t: Stavebnictví
-    - key: options.industry_sector.automotive
-      t: Automobilový průmysl
-    - key: options.industry_sector.agriculture
-      t: Zemědělství
-    - key: options.industry_sector.transport
-      t: Doprava
-    - key: options.industry_sector.manufacturing
-      t: Řemeslná výroba
+  # Industry Sector
+  - key: options.industry_sector.ecommerce
+    t: Ecommerce a retail
+  - key: options.industry_sector.news_media
+    t: Noviny, média, blogy
+  - key: options.industry_sector.healthcare
+    t: Zdravotnictví
+  - key: options.industry_sector.finance
+    t: Finance
+  - key: options.industry_sector.programming_tools
+    t: Programování a technologie
+  - key: options.industry_sector.socialmedia
+    t: Sociální média
+  - key: options.industry_sector.marketing_tools
+    t: Marketingové/prodejní/analytické nástroje
+  - key: options.industry_sector.education
+    t: Vzdělávání
+  - key: options.industry_sector.real_estate
+    t: Reality
+  - key: options.industry_sector.government
+    t: Státní správa
+  - key: options.industry_sector.entertainment
+    t: Zábavní průmysl
+  - key: options.industry_sector.consulting
+    t: Konzultace a služby
+  - key: options.industry_sector.travel
+    t: Cestování
+  - key: options.industry_sector.insurance
+    t: Pojišťovnictví
+  - key: options.industry_sector.logistics
+    t: Logistika
+  - key: options.industry_sector.energy
+    t: Energetika
+  - key: options.industry_sector.telecommunications
+    t: Telekomunikace
+  - key: options.industry_sector.student
+    t: Studium
+  - key: options.industry_sector.hospitality
+    t: Pohostinství
+  - key: options.industry_sector.cyber_security
+    t: Kyberbezpečnost
+  - key: options.industry_sector.construction
+    t: Stavebnictví
+  - key: options.industry_sector.automotive
+    t: Automobilový průmysl
+  - key: options.industry_sector.agriculture
+    t: Zemědělství
+  - key: options.industry_sector.transport
+    t: Doprava
+  - key: options.industry_sector.manufacturing
+    t: Řemeslná výroba
 
-    # tool evaluation
-    - key: options.tool_evaluation.learning_curve_documentation
-      t: Dokumentace
-    - key: options.tool_evaluation.learning_curve_documentation.description
-      t: Je snadný na pochopení a/nebo dobře dokumentovaný?
-    - key: options.tool_evaluation.momentum_popularity
-      t: Hype a momentum
-    - key: options.tool_evaluation.momentum_popularity.description
-      t: Je to nástroj, o kterém se právě teď hodně mluví?
-    - key: options.tool_evaluation.user_base_size
-      t: Uživatelská základna
-    - key: options.tool_evaluation.user_base_size.description
-      t: Jedná se o zavedený nástroj s dlouhou historií?
-    - key: options.tool_evaluation.developer_experience_tooling
-      t: Developer Experience
-    - key: options.tool_evaluation.developer_experience_tooling.description
-      t: Jsou k dispozici dobré vývojářské nástroje, pluginy apod.?
-    - key: options.tool_evaluation.performance_user_experience
-      t: User Experience
-    - key: options.tool_evaluation.performance_user_experience.description
-      t: Pomáhá vám vytvářet dobrou uživatelskou zkušenost?
-    - key: options.tool_evaluation.creator_team
-      t: Tvůrce a tým
-    - key: options.tool_evaluation.creator_team.description
-      t: Stojí v pozadí renomovaný, finančně zajištěný a zkušený tým?
-    - key: options.tool_evaluation.accessibility_features
-      t: Přístupnost
-    - key: options.tool_evaluation.accessibility_features.description
-      t: Pomáhá s přístupností pro všechny uživatele?
-    - key: options.tool_evaluation.community_inclusivity
-      t: Komunita a inkluze
-    - key: options.tool_evaluation.community_inclusivity.description
-      t: Má vstřícnou a přívětivou komunitu?
+  # tool evaluation
+  - key: options.tool_evaluation.learning_curve_documentation
+    t: Dokumentace
+  - key: options.tool_evaluation.learning_curve_documentation.description
+    t: Je snadný na pochopení a/nebo dobře dokumentovaný?
+  - key: options.tool_evaluation.momentum_popularity
+    t: Hype a momentum
+  - key: options.tool_evaluation.momentum_popularity.description
+    t: Je to nástroj, o kterém se právě teď hodně mluví?
+  - key: options.tool_evaluation.user_base_size
+    t: Uživatelská základna
+  - key: options.tool_evaluation.user_base_size.description
+    t: Jedná se o zavedený nástroj s dlouhou historií?
+  - key: options.tool_evaluation.developer_experience_tooling
+    t: Developer Experience
+  - key: options.tool_evaluation.developer_experience_tooling.description
+    t: Jsou k dispozici dobré vývojářské nástroje, pluginy apod.?
+  - key: options.tool_evaluation.performance_user_experience
+    t: User Experience
+  - key: options.tool_evaluation.performance_user_experience.description
+    t: Pomáhá vám vytvářet dobrou uživatelskou zkušenost?
+  - key: options.tool_evaluation.creator_team
+    t: Tvůrce a tým
+  - key: options.tool_evaluation.creator_team.description
+    t: Stojí v pozadí renomovaný, finančně zajištěný a zkušený tým?
+  - key: options.tool_evaluation.accessibility_features
+    t: Přístupnost
+  - key: options.tool_evaluation.accessibility_features.description
+    t: Pomáhá s přístupností pro všechny uživatele?
+  - key: options.tool_evaluation.community_inclusivity
+    t: Komunita a inkluze
+  - key: options.tool_evaluation.community_inclusivity.description
+    t: Má vstřícnou a přívětivou komunitu?
 
-    # accessibility features
-    - key: options.accessibility_features.keyboard_navigation
-      t: Ovládání klávesnicí
-    - key: options.accessibility_features.compliant_contrast
-      t: Kontrast v souladu s WCAG
-    - key: options.accessibility_features.focus_indicators
-      t: Zvýraznění focusu
-    - key: options.accessibility_features.skip_to_content_link
-      t: Odkaz pro rychlý přechod k obsahu
-    - key: options.accessibility_features.color_themes
-      t: Barevná témata (tmavý režim, vysoký kontrast apod.)
-    - key: options.accessibility_features.prefers_reduced_motion
-      t: Omezení animací
-    - key: options.accessibility_features.alt_text
-      t: Alternativní texty
-    - key: options.accessibility_features.semantic_markup
-      t: Sémantický markup
-    - key: options.accessibility_features.aria_attributes
-      t: ARIA atributy
+  # accessibility features
+  - key: options.accessibility_features.keyboard_navigation
+    t: Ovládání klávesnicí
+  - key: options.accessibility_features.compliant_contrast
+    t: Kontrast v souladu s WCAG
+  - key: options.accessibility_features.focus_indicators
+    t: Zvýraznění focusu
+  - key: options.accessibility_features.skip_to_content_link
+    t: Odkaz pro rychlý přechod k obsahu
+  - key: options.accessibility_features.color_themes
+    t: Barevná témata (tmavý režim, vysoký kontrast apod.)
+  - key: options.accessibility_features.prefers_reduced_motion
+    t: Omezení animací
+  - key: options.accessibility_features.alt_text
+    t: Alternativní texty
+  - key: options.accessibility_features.semantic_markup
+    t: Sémantický markup
+  - key: options.accessibility_features.aria_attributes
+    t: ARIA atributy
 
-    # learning methods
-    - key: options.first_steps.books
-      t: Knihy
-    - key: options.first_steps.videos
-      t: Videa a screencasty
-    - key: options.first_steps.school
-      t: Školní a vyšší vzdělání
-    - key: options.first_steps.courses_free
-      t: Online kurzy (zdarma)
-    - key: options.first_steps.courses_paid
-      t: Online kurzy (placené)
-    - key: options.first_steps.podcasts
-      t: Podcasty
-    - key: options.first_steps.bootcamp
-      t: Coding bootcamp
-    - key: options.first_steps.on_the_job
-      t: Zaškolení v rámci projektu
-    - key: options.first_steps.self_directed
-      t: Sebevzdělávání (Google, Stack Overflow atd.)
-    - key: options.first_steps.mentoring
-      t: Mentoring
+  # learning methods
+  - key: options.first_steps.books
+    t: Knihy
+  - key: options.first_steps.videos
+    t: Videa a screencasty
+  - key: options.first_steps.school
+    t: Školní a vyšší vzdělání
+  - key: options.first_steps.courses_free
+    t: Online kurzy (zdarma)
+  - key: options.first_steps.courses_paid
+    t: Online kurzy (placené)
+  - key: options.first_steps.podcasts
+    t: Podcasty
+  - key: options.first_steps.bootcamp
+    t: Coding bootcamp
+  - key: options.first_steps.on_the_job
+    t: Zaškolení v rámci projektu
+  - key: options.first_steps.self_directed
+    t: Sebevzdělávání (Google, Stack Overflow atd.)
+  - key: options.first_steps.mentoring
+    t: Mentoring
 
-    # degree
-    - key: options.higher_education_degree.no
-      t: Ne
-    - key: options.higher_education_degree.yes_related
-      t: Ano, v oboru souvisejícím s mou profesí
-    - key: options.higher_education_degree.yes_unrelated
-      t: Ano, ale v oboru nesouvisejícím s mou profesí
+  # degree
+  - key: options.higher_education_degree.no
+    t: Ne
+  - key: options.higher_education_degree.yes_related
+    t: Ano, v oboru souvisejícím s mou profesí
+  - key: options.higher_education_degree.yes_unrelated
+    t: Ano, ale v oboru nesouvisejícím s mou profesí
 
-    # degree (short versions)
-    - key: options.higher_education_degree.no_degree.short
-      t: Ne
-    - key: options.higher_education_degree.yes_related.short
-      t: Ano, související obor
-    - key: options.higher_education_degree.yes_unrelated.short
-      t: Yes, nesouvisející obor
+  # degree (short versions)
+  - key: options.higher_education_degree.no_degree.short
+    t: Ne
+  - key: options.higher_education_degree.yes_related.short
+    t: Ano, související obor
+  - key: options.higher_education_degree.yes_unrelated.short
+    t: Yes, nesouvisející obor
 
-    # bracket
-    - key: options.bracket.round1
-      t: Vyhrává první kolo
-    - key: options.bracket.round2
-      t: Vyhrává druhé kolo
-    - key: options.bracket.round3
-      t: Vyhrává třetí kolo
-    - key: options.bracket.combined
-      t: Kombinované
+  # bracket
+  - key: options.bracket.round1
+    t: Vyhrává první kolo
+  - key: options.bracket.round2
+    t: Vyhrává druhé kolo
+  - key: options.bracket.round3
+    t: Vyhrává třetí kolo
+  - key: options.bracket.combined
+    t: Kombinované
 
-    # email_temporary (receive updates?)
-    - key: options.email_temporary.yes
-      t: Ano, pošlete mi e-mail, jakmile budou výsledky průzkumu zveřejněny
+  # email_temporary (receive updates?)
+  - key: options.receive_notifications.yes
+    t: Ano, pošlete mi e-mail, jakmile budou výsledky průzkumu zveřejněny
 
-    ###########################################################################
-    # Tools
-    ###########################################################################
+  ###########################################################################
+  # Tools
+  ###########################################################################
 
-    - key: tools.other_tools
-      t: Další možnosti
-    - key: tools.other_tools.description
-      t: Další možnosti, které využíváte a nejsou uvedené výše
-    - key: tools.happiness
-      t: Celková spokojenost
-    - key: tools.happiness.description
-      t: >
-          Vyjádřeno na škále od jedné (holé zoufalství) do pěti (jsem nadšený),
-          jak jste spokojeni s všeobecným stavem věcí výše?
+  - key: tools.other_tools
+    t: Další možnosti
+  - key: tools.other_tools.description
+    t: Další možnosti, které využíváte a nejsou uvedené výše
+  - key: tools.happiness
+    t: Celková spokojenost
+  - key: tools.happiness.description
+    t: >
+      Vyjádřeno na škále od jedné (holé zoufalství) do pěti (jsem nadšený),
+      jak jste spokojeni s všeobecným stavem věcí výše?
 
-    ###########################################################################
-    # Demographics (About You/User Info)
-    ###########################################################################
+  ###########################################################################
+  # Demographics (About You/User Info)
+  ###########################################################################
 
-    # age
-    - key: user_info.age
-      t: Věk
-    - key: user_info.age.description
-      t: Kolik vám je let?
+  # age
+  - key: user_info.age
+    t: Věk
+  - key: user_info.age.description
+    t: Kolik vám je let?
 
-    # years of experience
-    - key: user_info.years_of_experience
-      t: Roky zkušeností
-    - key: user_info.years_of_experience.description
-      t: Jak dlouho pracujete nebo se zabýváte touto oblastí.
+  # years of experience
+  - key: user_info.years_of_experience
+    t: Roky zkušeností
+  - key: user_info.years_of_experience.description
+    t: Jak dlouho pracujete nebo se zabýváte touto oblastí.
 
-    # company size
-    - key: user_info.company_size
-      t: Velikost společnosti
-    - key: user_info.company_size.description
-      t: Jak velká je vaše společnost.
+  # company size
+  - key: user_info.company_size
+    t: Velikost společnosti
+  - key: user_info.company_size.description
+    t: Jak velká je vaše společnost.
 
-    # salary ranges
-    - key: user_info.yearly_salary
-      t: Roční příjem
-    - key: user_info.yearly_salary.description
-      t: V amerických dolarech.
+  # salary ranges
+  - key: user_info.yearly_salary
+    t: Roční příjem
+  - key: user_info.yearly_salary.description
+    t: V amerických dolarech.
 
-    # job title
-    - key: user_info.job_title
-      t: Pozice
-    - key: user_info.job_title.description
-      t: Jak se představujete ostatním?
+  # job title
+  - key: user_info.job_title
+    t: Pozice
+  - key: user_info.job_title.description
+    t: Jak se představujete ostatním?
 
-    # javascript proficiency
-    - key: user_info.javascript_proficiency
-      t: Zkušenost s JavaScriptem
-    - key: user_info.javascript_proficiency.description
-      t: Jakou zkušenost máte s JavaScriptem?
+  # javascript proficiency
+  - key: user_info.javascript_proficiency
+    t: Zkušenost s JavaScriptem
+  - key: user_info.javascript_proficiency.description
+    t: Jakou zkušenost máte s JavaScriptem?
 
-    # css proficiency
-    - key: user_info.css_proficiency
-      t: Zkušenost s CSS
-    - key: user_info.css_proficiency.description
-      t: Jakou zkušenost máte s CSS?
+  # css proficiency
+  - key: user_info.css_proficiency
+    t: Zkušenost s CSS
+  - key: user_info.css_proficiency.description
+    t: Jakou zkušenost máte s CSS?
 
-    # backend proficiency
-    - key: user_info.backend_proficiency
-      t: Zkušenost s backendem
-    - key: user_info.backend_proficiency.description
-      t: Jakou zkušenost máte s backendovým vývojem?
+  # backend proficiency
+  - key: user_info.backend_proficiency
+    t: Zkušenost s backendem
+  - key: user_info.backend_proficiency.description
+    t: Jakou zkušenost máte s backendovým vývojem?
 
-    # gender
-    - key: user_info.gender
-      t: Pohlaví
-    - key: user_info.gender.description
-      t: >
-        Tato data používáme pro sledování a vylepšování vypovídací hodnoty
-        průzkumu.
-    - key: user_info.gender.note
-      t: >
-        I když víme, že shromažďování a publikování dat o diverzitě může být
-        citlivou záležitostí, domníváme se, že je důležité získat tato data
-        za účelem zlepšení inkluzivity a reprezentativnosti průzkumu.
+  # gender
+  - key: user_info.gender
+    t: Pohlaví
+  - key: user_info.gender.description
+    t: >
+      Tato data používáme pro sledování a vylepšování vypovídací hodnoty
+      průzkumu.
+  - key: user_info.gender.note
+    t: >
+      I když víme, že shromažďování a publikování dat o diverzitě může být
+      citlivou záležitostí, domníváme se, že je důležité získat tato data
+      za účelem zlepšení inkluzivity a reprezentativnosti průzkumu.
 
-    # race & ethnicity
-    - key: user_info.race_ethnicity
-      t: Etnický původ
-    - key: user_info.race_ethnicity.description
-    - key: user_info.gender.description
-      t: >
-        Tato data používáme pro sledování a vylepšování vypovídací hodnoty
-        průzkumu.
-    - key: user_info.race_ethnicity.note
-      t: >
-        I když víme, že shromažďování a publikování dat o diverzitě může být
-        citlivou záležitostí, domníváme se, že je důležité získat tato data
-        za účelem zlepšení inkluzivity a reprezentativnosti průzkumu.
-    - key: user_info.race_ethnicity.not_allowed
-      t: >
-        Za účelem dodržení místních zásad bylo shromažďování údajů
-        o rase nebo etnické příslušnosti ve vaší zemi zakázáno.
+  # race & ethnicity
+  - key: user_info.race_ethnicity
+    t: Etnický původ
+  - key: user_info.race_ethnicity.description
+  - key: user_info.gender.description
+    t: >
+      Tato data používáme pro sledování a vylepšování vypovídací hodnoty
+      průzkumu.
+  - key: user_info.race_ethnicity.note
+    t: >
+      I když víme, že shromažďování a publikování dat o diverzitě může být
+      citlivou záležitostí, domníváme se, že je důležité získat tato data
+      za účelem zlepšení inkluzivity a reprezentativnosti průzkumu.
+  - key: user_info.race_ethnicity.not_allowed
+    t: >
+      Za účelem dodržení místních zásad bylo shromažďování údajů
+      o rase nebo etnické příslušnosti ve vaší zemi zakázáno.
 
   # disability status
-    - key: user_info.disability_status
-      t: Hendikepy a omezení
-    - key: user_info.disability_status.description
-      t: >
-        Tato data používáme pro sledování a vylepšování přístupnosti a
-        vypovídací hodnoty průzkumu.
+  - key: user_info.disability_status
+    t: Hendikepy a omezení
+  - key: user_info.disability_status.description
+    t: >
+      Tato data používáme pro sledování a vylepšování přístupnosti a
+      vypovídací hodnoty průzkumu.
 
-    # disability status (other)
-    - key: user_info.disability_status.others
-      t: Jiná omezení
+  # disability status (other)
+  - key: user_info.disability_status.others
+    t: Jiná omezení
 
-    # other info
-    - key: user_info.how_did_user_find_out_about_the_survey
-      t: Jak jste se dověděli o tomto průzkumu?
-    - key: user_info.email
-      t: Váš e-mail
-    - key: user_info.email.description
-      t: >
-        Dotazník jste vyplnili anonymně. Pokud chcete,
-        můžete volitelně zadat svůj e-mail, abyste měli později přístup
-        ke svým datům a byli informováni o zveřejnění výsledků průzkumu.
-    - key: user_info.email.note
-      t: >
-        Neuchováváme žádné osobní údaje. Jakmile vyplníte svou
-        e-mailovou adresu, použijeme ji k vygenerování anonymizovaného
-        identifikátoru a následně ji vymažeme z našich záznamů.
-    - key: user_info.country
-      t: Země
-    - key: user_info.country.description
-      t: Kde v současné době žijete?
+  # other info
+  - key: user_info.how_did_user_find_out_about_the_survey
+    t: Jak jste se dověděli o tomto průzkumu?
+  - key: user_info.email
+    t: Váš e-mail
+  - key: user_info.email.description
+    t: >
+      Dotazník jste vyplnili anonymně. Pokud chcete,
+      můžete volitelně zadat svůj e-mail, abyste měli později přístup
+      ke svým datům a byli informováni o zveřejnění výsledků průzkumu.
+  - key: user_info.email.note
+    t: >
+      Neuchováváme žádné osobní údaje. Jakmile vyplníte svou
+      e-mailovou adresu, použijeme ji k vygenerování anonymizovaného
+      identifikátoru a následně ji vymažeme z našich záznamů.
+  - key: user_info.country
+    t: Země
+  - key: user_info.country.description
+    t: Kde v současné době žijete?
 
-    - key: user_info.github_username
-      t: Váš GitHub účet
-    - key: user_info.github_username.description
-      t: >
-        Uživatelská jména na GitHubu můžeme v budoucnu použít k nahlížení do
-        repozitářů a propojení s veřejně dostupnými informacemi.
+  - key: user_info.github_username
+    t: Váš GitHub účet
+  - key: user_info.github_username.description
+    t: >
+      Uživatelská jména na GitHubu můžeme v budoucnu použít k nahlížení do
+      repozitářů a propojení s veřejně dostupnými informacemi.
 
-    - key: user_info.twitter_username
-      t: Váš Twitter
-    - key: user_info.twitter_username.description
-      t: >
-        Uživatelská jména na Twitteru můžeme v budoucnu využít k nahlédnutí
-        aktivity a propojení s veřejně dostupnými informacemi (např. seznam
-        lidí, které sledujete).
+  - key: user_info.twitter_username
+    t: Váš Twitter
+  - key: user_info.twitter_username.description
+    t: >
+      Uživatelská jména na Twitteru můžeme v budoucnu využít k nahlédnutí
+      aktivity a propojení s veřejně dostupnými informacemi (např. seznam
+      lidí, které sledujete).
 
-    - key: user_info.industry_sector
-      t: Sektory
-    - key: user_info.industry_sector.description
-      t: V jakém sektoru (nebo sektorech) pracujete?
-    - key: user_info.industry_sector.others
-      t: Další sektory
-    - key: user_info.industry_sector.others.description
-      t: Další sektory, v nichž pracujete a které nejsou uvedeny výše.
+  - key: user_info.industry_sector
+    t: Sektory
+  - key: user_info.industry_sector.description
+    t: V jakém sektoru (nebo sektorech) pracujete?
+  - key: user_info.industry_sector.others
+    t: Další sektory
+  - key: user_info.industry_sector.others.description
+    t: Další sektory, v nichž pracujete a které nejsou uvedeny výše.
 
-    # degree
-    - key: user_info.higher_education_degree
-      t: Vysokoškolské/vyšší odborné vzdělání
-    - key: user_info.higher_education_degree.description
-      t: Máte ukončené vysokoškolské nebo vyšší odborné vzdělání?
+  # degree
+  - key: user_info.higher_education_degree
+    t: Vysokoškolské/vyšší odborné vzdělání
+  - key: user_info.higher_education_degree.description
+    t: Máte ukončené vysokoškolské nebo vyšší odborné vzdělání?
 
-    # completion
-    - key: user_info.completion_stats
-      t: Dokončení průzkumu
-    - key: user_info.completion_stats.description
-      t: Jakou část průzkumu respondenti vyplnili?
+  # completion
+  - key: user_info.completion_stats
+    t: Dokončení průzkumu
+  - key: user_info.completion_stats.description
+    t: Jakou část průzkumu respondenti vyplnili?
 
-    # email_temporary (receive updates?)
-    - key: user_info.email_temporary
-      t: Chcete být informováni, až budou zveřejněny výsledky průzkumu?
-    - key: user_info.email_temporary.note
-      t: >
-        Neuchováváme žádná soukromá data. Jakmile bude vaše e-mailová
-        adresa odeslána našemu poskytovateli mailing listu,
-        bude smazána z našich záznamů.
+  # email_temporary (receive updates?)
+  - key: user_info.receive_notifications
+    t: Chcete být informováni, až budou zveřejněny výsledky průzkumu?
+  - key: user_info.receive_notifications.note
+    t: >
+      Neuchováváme žádná soukromá data. Jakmile bude vaše e-mailová
+      adresa odeslána našemu poskytovateli mailing listu,
+      bude smazána z našich záznamů.
 
-    # how can we improve the survey?
-    - key: user_info.how_can_we_improve
-      t: Jak můžeme zlepšit tento průzkum?
+  # how can we improve the survey?
+  - key: user_info.how_can_we_improve
+    t: Jak můžeme zlepšit tento průzkum?
 
+  ###########################################################################
+  # Other Tools
+  ###########################################################################
 
-    ###########################################################################
-    # Other Tools
-    ###########################################################################
+  - key: tools_others.libraries
+    t: Knihovny
+  - key: tools_others.libraries.description
+    t: Jaké knihovny pravidelně používáte?
+  - key: tools_others.libraries.others
+    t: Jiné knihovny
+  - key: tools_others.libraries.others.description
+    t: Jiné (vyplňte).
 
-    - key: tools_others.libraries
-      t: Knihovny
-    - key: tools_others.libraries.description
-      t: Jaké knihovny pravidelně používáte?
-    - key: tools_others.libraries.others
-      t: Jiné knihovny
-    - key: tools_others.libraries.others.description
-      t: Jiné (vyplňte).
+  - key: tools_others.text_editors
+    t: Textové editory
+  - key: tools_others.text_editors.description
+    t: Jaké textové editory pravidelně používáte?
+  - key: tools_others.text_editors.others
+    t: Jiné textové editory
+  - key: tools_others.text_editors.others.description
+    t: Jiné (vyplňte).
 
-    - key: tools_others.text_editors
-      t: Textové editory
-    - key: tools_others.text_editors.description
-      t: Jaké textové editory pravidelně používáte?
-    - key: tools_others.text_editors.others
-      t: Jiné textové editory
-    - key: tools_others.text_editors.others.description
-      t: Jiné (vyplňte).
+  - key: tools_others.utilities
+    t: Utilitity
+  - key: tools_others.utilities.description
+    t: Jaké utility pravidelně používáte?
+  - key: tools_others.utilities.others
+    t: Jiné utility
+  - key: tools_others.utilities.others.description
+    t: Jiné (vyplňte).
 
-    - key: tools_others.utilities
-      t: Utilitity
-    - key: tools_others.utilities.description
-      t: Jaké utility pravidelně používáte?
-    - key: tools_others.utilities.others
-      t: Jiné utility
-    - key: tools_others.utilities.others.description
-      t: Jiné (vyplňte).
+  - key: tools_others.browsers
+    t: Prohlížeče
+  - key: tools_others.browsers.description
+    t: Jaké prohlížeče nejčastěji používáte pro počáteční vývoj?
+  - key: tools_others.browsers.others
+    t: Jiné prohlížeče
+  - key: tools_others.browsers.others.description
+    t: Jiné (vyplňte).
 
-    - key: tools_others.browsers
-      t: Prohlížeče
-    - key: tools_others.browsers.description
-      t: Jaké prohlížeče nejčastěji používáte pro počáteční vývoj?
-    - key: tools_others.browsers.others
-      t: Jiné prohlížeče
-    - key: tools_others.browsers.others.description
-      t: Jiné (vyplňte).
+  - key: tools_others.build_tools
+    t: Buildovací nástroje
+  - key: tools_others.build_tools.description
+    t: Jaké buildovací nástroje používáte?
+  - key: tools_others.build_tools.others
+    t: Jiné buildovací nástroje
+  - key: tools_others.build_tools.others.description
+    t: Jiné (vyplňte).
 
-    - key: tools_others.build_tools
-      t: Buildovací nástroje
-    - key: tools_others.build_tools.description
-      t: Jaké buildovací nástroje používáte?
-    - key: tools_others.build_tools.others
-      t: Jiné buildovací nástroje
-    - key: tools_others.build_tools.others.description
-      t: Jiné (vyplňte).
+  - key: tools_others.non_js_languages
+    t: Ne-javascriptové jazyky
+  - key: tools_others.non_js_languages.description
+    t: Jaké další programovací jazyky používáte?
+  - key: tools_others.non_js_languages.others
+    t: Jiné programovací jazyky
+  - key: tools_others.non_js_languages.others.description
+    t: Jiné (vyplňte).
 
-    - key: tools_others.non_js_languages
-      t: Ne-javascriptové jazyky
-    - key: tools_others.non_js_languages.description
-      t: Jaké další programovací jazyky používáte?
-    - key: tools_others.non_js_languages.others
-      t: Jiné programovací jazyky
-    - key: tools_others.non_js_languages.others.description
-      t: Jiné (vyplňte).
+  - key: tools_others.javascript_flavors
+    t: Podobné JavaScriptu
+  - key: tools_others.javascript_flavors.description
+    t: Jazyky, které se kompilují do JavaScriptu
+  - key: tools_others.javascript_flavors.others
+    t: Ostatní podobné JavaScriptu
+  - key: tools_others.javascript_flavors.others.description
+    t: Jiné (vyplňte).
 
-    - key: tools_others.javascript_flavors
-      t: Podobné JavaScriptu
-    - key: tools_others.javascript_flavors.description
-      t: Jazyky, které se kompilují do JavaScriptu
-    - key: tools_others.javascript_flavors.others
-      t: Ostatní podobné JavaScriptu
-    - key: tools_others.javascript_flavors.others.description
-      t: Jiné (vyplňte).
+  ###########################################################################
+  # Resources
+  ###########################################################################
 
-    ###########################################################################
-    # Resources
-    ###########################################################################
+  # learning method
+  - key: resources.first_steps
+    t: Primární zdroje vzdělání
+  - key: resources.first_steps.description
+    t: Jakým způsobem jste se poprvé naučili programovat?
+  - key: resources.first_steps.others
+    t: Jiné primární zdroje vzdělání
+  - key: resources.first_steps.others.description
+    t: Jiné (vyplňte).
 
-    # learning method
-    - key: resources.first_steps
-      t: Primární zdroje vzdělání
-    - key: resources.first_steps.description
-      t: Jakým způsobem jste se poprvé naučili programovat?
-    - key: resources.first_steps.others
-      t: Jiné primární zdroje vzdělání
-    - key: resources.first_steps.others.description
-      t: Jiné (vyplňte).
+  # blogs & magazines
+  - key: resources.blogs_news_magazines
+    t: Blogy a magazíny
+  - key: resources.blogs_news_magazines.description
+    t: Jaké blogy, magazíny apod. čtete?
+  - key: resources.blogs_news_magazines.others
+    t: Jiné blogy a magazíny
+  - key: resources.blogs_news_magazines.others.description
+    t: Jiné (vyplňte).
 
-    # blogs & magazines
-    - key: resources.blogs_news_magazines
-      t: Blogy a magazíny
-    - key: resources.blogs_news_magazines.description
-      t: Jaké blogy, magazíny apod. čtete?
-    - key: resources.blogs_news_magazines.others
-      t: Jiné blogy a magazíny
-    - key: resources.blogs_news_magazines.others.description
-      t: Jiné (vyplňte).
+  # sites & courses
+  - key: resources.sites_courses
+    t: Weby a kurzy
+  - key: resources.sites_courses.description
+    t: Jaké weby a kurzy sledujete?
+  - key: resources.sites_courses.others
+    t: Jiné weby a kurzy
+  - key: resources.sites_courses.others.description
+    t: Jiné (vyplňte).
 
-    # sites & courses
-    - key: resources.sites_courses
-      t: Weby a kurzy
-    - key: resources.sites_courses.description
-      t: Jaké weby a kurzy sledujete?
-    - key: resources.sites_courses.others
-      t: Jiné weby a kurzy
-    - key: resources.sites_courses.others.description
-      t: Jiné (vyplňte).
+  # podcasts
+  - key: resources.podcasts
+    t: Podcasty
+  - key: resources.podcasts.description
+    t: Jaké podcasty o programování posloucháte?
+  - key: resources.podcasts.others
+    t: Jiné podcasty
+  - key: resources.podcasts.others.description
+    t: Jiné (vyplňte).
 
-    # podcasts
-    - key: resources.podcasts
-      t: Podcasty
-    - key: resources.podcasts.description
-      t: Jaké podcasty o programování posloucháte?
-    - key: resources.podcasts.others
-      t: Jiné podcasty
-    - key: resources.podcasts.others.description
-      t: Jiné (vyplňte).
+  # people
+  - key: resources.people
+    t: Lidé
+  - key: resources.people.description
+    t: Lidé, které sledujete nebo jen chcete zmínit.
+  # - key: resources.people.others
+  #   t: Další lidé
+  # - key: resources.people.others.description
+  #   t: Jiné (vyplňte).
+  - key: resources.people.others
+    t: Lidé
+  - key: resources.people.others.description
+    t: >
+      Lidé, které sledujete nebo jen chcete zmínit jejich práci (více jmen
+      oddělujte čárkou).
 
-    # people
-    - key: resources.people
-      t: Lidé
-    - key: resources.people.description
-      t: Lidé, které sledujete nebo jen chcete zmínit.
-    # - key: resources.people.others
-    #   t: Další lidé
-    # - key: resources.people.others.description
-    #   t: Jiné (vyplňte).
-    - key: resources.people.others
-      t: Lidé
-    - key: resources.people.others.description
-      t: >
-        Lidé, které sledujete nebo jen chcete zmínit jejich práci (více jmen
-        oddělujte čárkou).
-
-    # other surveys
-    - key: resources.other_surveys
-      t: Jiné průzkumy
-    - key: resources.other_surveys.description
-      t: Kterých dalších vývojářských průzkumů se účastníte?
-    - key: resources.other_surveys.others
-      t: Jiné, výše neuvedené průzkumy
+  # other surveys
+  - key: resources.other_surveys
+    t: Jiné průzkumy
+  - key: resources.other_surveys.description
+    t: Kterých dalších vývojářských průzkumů se účastníte?
+  - key: resources.other_surveys.others
+    t: Jiné, výše neuvedené průzkumy

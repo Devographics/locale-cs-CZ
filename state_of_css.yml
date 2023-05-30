@@ -1,818 +1,818 @@
 locale: cs-CZ
 namespace: css
 translations:
-    ###########################################################################
-    # General
-    ###########################################################################
+  ###########################################################################
+  # General
+  ###########################################################################
 
-    - key: general.state_of_css.intro
-      t: >
-        ## CSS jde kupředu rychleji než kdy dřív.
+  - key: general.state_of_css.intro
+    t: >
+      ## CSS jde kupředu rychleji než kdy dřív.
 
-        Flexbox, Grid, Multi-Column… A to nemluvíme o úplně nových paradigmatech
-        jako je CSS-in-JS.
+      Flexbox, Grid, Multi-Column… A to nemluvíme o úplně nových paradigmatech
+      jako je CSS-in-JS.
 
-        Po úspěchu našeho každoročního průzkumu
-        [State Of JavaScript](https://stateofjs.com) jsme se rozhodli prozkoumat
-        také svět stylů a selektorů a zmapovat i jejich nejnovější trendy.
-        Věříme, že nám pomůžete tyto trendy identifikovat a ujasnit si, které
-        z nových technik a nástrojů stojí za to začít používat.
+      Po úspěchu našeho každoročního průzkumu
+      [State Of JavaScript](https://stateofjs.com) jsme se rozhodli prozkoumat
+      také svět stylů a selektorů a zmapovat i jejich nejnovější trendy.
+      Věříme, že nám pomůžete tyto trendy identifikovat a ujasnit si, které
+      z nových technik a nástrojů stojí za to začít používat.
 
-    ###########################################################################
-    # Sections
-    ###########################################################################
+  ###########################################################################
+  # Sections
+  ###########################################################################
 
-    - key: sections.layout.title
-      t: Layout
-    - key: sections.layout.description
-      t: Jak rozmisťujete prvky na stránce?
+  - key: sections.layout.title
+    t: Layout
+  - key: sections.layout.description
+    t: Jak rozmisťujete prvky na stránce?
 
-    - key: sections.shapes_graphics.title
-      t: Tvary a grafika
-    - key: sections.shapes_graphics.description
-      t: Nastavení tvaru a zobrazení prvků.
+  - key: sections.shapes_graphics.title
+    t: Tvary a grafika
+  - key: sections.shapes_graphics.description
+    t: Nastavení tvaru a zobrazení prvků.
 
-    - key: sections.interactions.title
-      t: Interakce
-    - key: sections.interactions.description
-      t: Ovládání způsobu interakce uživatele se stránkou.
+  - key: sections.interactions.title
+    t: Interakce
+  - key: sections.interactions.description
+    t: Ovládání způsobu interakce uživatele se stránkou.
 
-    - key: sections.typography.title
-      t: Typografie
-    - key: sections.typography.description
-      t: Sazba a grafická úprava textu.
+  - key: sections.typography.title
+    t: Typografie
+  - key: sections.typography.description
+    t: Sazba a grafická úprava textu.
 
-    - key: sections.animations_transforms.title
-      t: Animace a transformace
-    - key: sections.animations_transforms.description
-      t: Animace a transformace prvků.
+  - key: sections.animations_transforms.title
+    t: Animace a transformace
+  - key: sections.animations_transforms.description
+    t: Animace a transformace prvků.
 
-    - key: sections.accessibility.title
-      t: Přístupnost
-    - key: sections.accessibility.description
-      t: Prvky a techniky v přístupnosti.
+  - key: sections.accessibility.title
+    t: Přístupnost
+  - key: sections.accessibility.description
+    t: Prvky a techniky v přístupnosti.
 
-    - key: sections.media_queries.title
-      t: Media Queries
-    - key: sections.media_queries.description
-      t: Přizpůsobení stránky podle zařízení nebo preferencí uživatele.
+  - key: sections.media_queries.title
+    t: Media Queries
+  - key: sections.media_queries.description
+    t: Přizpůsobení stránky podle zařízení nebo preferencí uživatele.
 
-    - key: sections.selectors.title
-      t: Selektory
-    - key: sections.selectors.description
-      t: CSS selektory.
-    - key: sections.colors.title
-      t: Barvy
-    - key: sections.colors.description
-      t: Vlastnosti související s barvami.
-    - key: sections.javascript_apis.title
-      t: JavaScript APIs
-    - key: sections.javascript_apis.description
-      t: JavaScript APIs používané k ovládání nebo doplnění CSS.
+  - key: sections.selectors.title
+    t: Selektory
+  - key: sections.selectors.description
+    t: CSS selektory.
+  - key: sections.colors.title
+    t: Barvy
+  - key: sections.colors.description
+    t: Vlastnosti související s barvami.
+  - key: sections.javascript_apis.title
+    t: JavaScript APIs
+  - key: sections.javascript_apis.description
+    t: JavaScript APIs používané k ovládání nebo doplnění CSS.
 
-    - key: sections.other_features.title
-      t: Další funkce
-    - key: sections.other_features.description
-      t: Další CSS funkce.
+  - key: sections.other_features.title
+    t: Další funkce
+  - key: sections.other_features.description
+    t: Další CSS funkce.
 
-    - key: sections.units_selectors.title
-      t: Jednotky a selektory
-    - key: sections.units_selectors.description
-      t: Otestujte své znalosti CSS jednotek a selektorů.
+  - key: sections.units_selectors.title
+    t: Jednotky a selektory
+  - key: sections.units_selectors.description
+    t: Otestujte své znalosti CSS jednotek a selektorů.
 
-    - key: sections.pre_post_processors.title
-      t: Pre-/Post-procesory
-    - key: sections.pre_post_processors.description
-      t: Nástroje rozšiřující možnosti CSS.
+  - key: sections.pre_post_processors.title
+    t: Pre-/Post-procesory
+  - key: sections.pre_post_processors.description
+    t: Nástroje rozšiřující možnosti CSS.
 
-    - key: sections.pre_post_processors_others.title
-      t: Jiné pre-/postprocesory
+  - key: sections.pre_post_processors_others.title
+    t: Jiné pre-/postprocesory
 
-    - key: tools_others.pre_post_processors
-      aliasFor: sections.pre_post_processors.title
-    - key: tools_others.pre_post_processors.description
-      aliasFor: sections.pre_post_processors.description
-    - key: tools_others.pre_post_processors.others
-      aliasFor: sections.pre_post_processors_others.title
+  - key: tools_others.pre_post_processors
+    aliasFor: sections.pre_post_processors.title
+  - key: tools_others.pre_post_processors.description
+    aliasFor: sections.pre_post_processors.description
+  - key: tools_others.pre_post_processors.others
+    aliasFor: sections.pre_post_processors_others.title
 
-    - key: sections.css_frameworks.title
-      t: CSS frameworky
-    - key: sections.css_frameworks.description
-      t: Knihovny s předpřipravenými styly a komponentami.
+  - key: sections.css_frameworks.title
+    t: CSS frameworky
+  - key: sections.css_frameworks.description
+    t: Knihovny s předpřipravenými styly a komponentami.
 
-    - key: sections.css_frameworks_others.title
-      t: Jiné CSS frameworky
+  - key: sections.css_frameworks_others.title
+    t: Jiné CSS frameworky
 
-    - key: sections.css_methodologies.title
-      t: CSS metodiky
-    - key: sections.css_methodologies.description
-      t: Kodifikovaná pravidla pro psaní čistého CSS.
+  - key: sections.css_methodologies.title
+    t: CSS metodiky
+  - key: sections.css_methodologies.description
+    t: Kodifikovaná pravidla pro psaní čistého CSS.
 
-    - key: sections.css_methodologies_others.title
-      t: Jiné CSS metodiky
+  - key: sections.css_methodologies_others.title
+    t: Jiné CSS metodiky
 
-    - key: sections.css_in_js.title
-      t: CSS-in-JS
-    - key: sections.css_in_js.description
-      t: Knihovny integrující CSS do javascriptového kódu.
+  - key: sections.css_in_js.title
+    t: CSS-in-JS
+  - key: sections.css_in_js.description
+    t: Knihovny integrující CSS do javascriptového kódu.
 
-    - key: sections.css_in_js_others.title
-      t: Jiné CSS-in-JS knihovny
+  - key: sections.css_in_js_others.title
+    t: Jiné CSS-in-JS knihovny
 
-    - key: sections.environments.title
-      t: Prostředí
-    - key: sections.environments.description
-      t: Jaká prostředí a problémy s přístupností zvažujete při psaní CSS?
+  - key: sections.environments.title
+    t: Prostředí
+  - key: sections.environments.description
+    t: Jaká prostředí a problémy s přístupností zvažujete při psaní CSS?
 
-    - key: sections.tools_others.title
-      t: Ostatní nástroje
-    - key: sections.tools_others.description
-      t: Ostatní CSS nástroje.
+  - key: sections.tools_others.title
+    t: Ostatní nástroje
+  - key: sections.tools_others.description
+    t: Ostatní CSS nástroje.
 
-    - key: sections.usage_css.title
-      t: Používání CSS
-    - key: sections.usage_css.description
-      t: Jak používáte CSS.
-    - key: sections.resources_css.title
-      t: Zdroje
-    - key: sections.resources_css.description
-      t: Jaké zdroje CSS konzultujete?
+  - key: sections.usage_css.title
+    t: Používání CSS
+  - key: sections.usage_css.description
+    t: Jak používáte CSS.
+  - key: sections.resources_css.title
+    t: Zdroje
+  - key: sections.resources_css.description
+    t: Jaké zdroje CSS konzultujete?
 
-    ###########################################################################
-    # Options
-    ###########################################################################
+  ###########################################################################
+  # Options
+  ###########################################################################
 
-    # CSS for print
-    - key: options.css_for_print.0
-      t: Nikdy (nebo téměř nikdy) nepíšu tiskové styly
-    - key: options.css_for_print.0.short
-      t: Nikdy
+  # CSS for print
+  - key: options.css_for_print.0
+    t: Nikdy (nebo téměř nikdy) nepíšu tiskové styly
+  - key: options.css_for_print.0.short
+    t: Nikdy
 
-    - key: options.css_for_print.1
-      t: Příležitostně píšu tiskové styly
-    - key: options.css_for_print.1.short
-      t: Příležitostně
+  - key: options.css_for_print.1
+    t: Příležitostně píšu tiskové styly
+  - key: options.css_for_print.1.short
+    t: Příležitostně
 
-    - key: options.css_for_print.2
-      t: Tiskové styly vytvářím pro většinu projektů
-    - key: options.css_for_print.2.short
-      t: Často
+  - key: options.css_for_print.2
+    t: Tiskové styly vytvářím pro většinu projektů
+  - key: options.css_for_print.2.short
+    t: Často
 
-    - key: options.css_for_print.3
-      t: Zaměřuji se především na tiskové styly
-    - key: options.css_for_print.3.short
-      t: Především
+  - key: options.css_for_print.3
+    t: Zaměřuji se především na tiskové styly
+  - key: options.css_for_print.3.short
+    t: Především
 
-    # CSS for email
-    - key: options.css_for_email.0
-      t: Nikdy (nebo téměř nikdy) nepíšu CSS pro e-mailové klienty
-    - key: options.css_for_email.0.short
-      t: Nikdy
+  # CSS for email
+  - key: options.css_for_email.0
+    t: Nikdy (nebo téměř nikdy) nepíšu CSS pro e-mailové klienty
+  - key: options.css_for_email.0.short
+    t: Nikdy
 
-    - key: options.css_for_email.1
-      t: Příležitostně píšu CSS pro e-mailové klienty
-    - key: options.css_for_email.1.short
-      t: Příležitostně
+  - key: options.css_for_email.1
+    t: Příležitostně píšu CSS pro e-mailové klienty
+  - key: options.css_for_email.1.short
+    t: Příležitostně
 
-    - key: options.css_for_email.2
-      t: CSS pro e-mailové klienty vytvářím pro většinu projektů
-    - key: options.css_for_email.2.short
-      t: Často
+  - key: options.css_for_email.2
+    t: CSS pro e-mailové klienty vytvářím pro většinu projektů
+  - key: options.css_for_email.2.short
+    t: Často
 
-    - key: options.css_for_email.3
-      t: Zaměřuji se především na CSS pro e-mailové klienty
-    - key: options.css_for_email.3.short
-      t: Především
+  - key: options.css_for_email.3
+    t: Zaměřuji se především na CSS pro e-mailové klienty
+  - key: options.css_for_email.3.short
+    t: Především
 
-     # what do you use CSS for?
-    - key: options.what_do_you_use_css_for.marketing_sites
-      t: Marketingové a cílové stránky
-    - key: options.what_do_you_use_css_for.design_systems
-      t: Design systémy
-    - key: options.what_do_you_use_css_for.blogs
-      t: Blogy nebo jiné stránky s velkým množstvím textu
-    - key: options.what_do_you_use_css_for.web_apps
-      t: Webové aplikace
-    - key: options.what_do_you_use_css_for.mobile_apps
-      t: Mobilní aplikace
-    - key: options.what_do_you_use_css_for.css_art
-      t: CSS umění a ilustrace
-    - key: options.what_do_you_use_css_for.emails
-      t: E-maily
-    - key: options.what_do_you_use_css_for.printed_documents
-      t: Tištěné dokumenty
+    # what do you use CSS for?
+  - key: options.what_do_you_use_css_for.marketing_sites
+    t: Marketingové a cílové stránky
+  - key: options.what_do_you_use_css_for.design_systems
+    t: Design systémy
+  - key: options.what_do_you_use_css_for.blogs
+    t: Blogy nebo jiné stránky s velkým množstvím textu
+  - key: options.what_do_you_use_css_for.web_apps
+    t: Webové aplikace
+  - key: options.what_do_you_use_css_for.mobile_apps
+    t: Mobilní aplikace
+  - key: options.what_do_you_use_css_for.css_art
+    t: CSS umění a ilustrace
+  - key: options.what_do_you_use_css_for.emails
+    t: E-maily
+  - key: options.what_do_you_use_css_for.printed_documents
+    t: Tištěné dokumenty
 
-    # CSS pain points
-    - key: options.css_pain_points.browser_interoperability
-      t: Kompatibilita prohlížeče
-    - key: options.css_pain_points.browser_interoperability.description
-      t: Rozdíly mezi Chrome, Safari, Firefox, atd.
-    - key: options.css_pain_points.interactions
-      t: Interakce
-    - key: options.css_pain_points.interactions.description
-      t: >
-        Reakce na vstupy uživatelů nebo jiné události
-        (posouvání, najetí myší atd.).
-    - key: options.css_pain_points.architecture
-      t: Architektura a údržba
-    - key: options.css_pain_points.architecture.description
-      t: Organizace souborů, odstranění mrtvého kódu, refaktorování atd.
-    - key: options.css_pain_points.layout_positioning
-      t: Layout a pozicování
-    - key: options.css_pain_points.layout_positioning.description
-      t: Nastavení rozvržení a zajištění, aby se prvky dostaly tam, kam chcete.
-    - key: options.css_pain_points.scoping_specificity
-      t: Rozsah a specificita
-    - key: options.css_pain_points.scoping_specificity.description
-      t: Zacházení s kaskádou, nadřazenými styly atd.
-    - key: options.css_pain_points.responsive_design
-      t: Responzivní design
-    - key: options.css_pain_points.responsive_design.description
-      t: Adaptivní layout a návrhy pro různá zařízení
-    - key: options.css_pain_points.form_elements_styling
-      t: Stylování formulářových prvků
-    - key: options.css_pain_points.form_elements_styling.description
-      t: Přizpůsobení vzhledu a chování prvků formuláře.
-    - key: options.css_pain_points.performance_issues
-      t: Výkonnostní problémy
-    - key: options.css_pain_points.performance_issues.description
-      t: Vypořádání se s poskakováním při scrollování, plynulými animacemi, atd.
+  # CSS pain points
+  - key: options.css_pain_points.browser_interoperability
+    t: Kompatibilita prohlížeče
+  - key: options.css_pain_points.browser_interoperability.description
+    t: Rozdíly mezi Chrome, Safari, Firefox, atd.
+  - key: options.css_pain_points.interactions
+    t: Interakce
+  - key: options.css_pain_points.interactions.description
+    t: >
+      Reakce na vstupy uživatelů nebo jiné události
+      (posouvání, najetí myší atd.).
+  - key: options.css_pain_points.architecture
+    t: Architektura a údržba
+  - key: options.css_pain_points.architecture.description
+    t: Organizace souborů, odstranění mrtvého kódu, refaktorování atd.
+  - key: options.css_pain_points.layout_positioning
+    t: Layout a pozicování
+  - key: options.css_pain_points.layout_positioning.description
+    t: Nastavení rozvržení a zajištění, aby se prvky dostaly tam, kam chcete.
+  - key: options.css_pain_points.scoping_specificity
+    t: Rozsah a specificita
+  - key: options.css_pain_points.scoping_specificity.description
+    t: Zacházení s kaskádou, nadřazenými styly atd.
+  - key: options.css_pain_points.responsive_design
+    t: Responzivní design
+  - key: options.css_pain_points.responsive_design.description
+    t: Adaptivní layout a návrhy pro různá zařízení
+  - key: options.css_pain_points.form_elements_styling
+    t: Stylování formulářových prvků
+  - key: options.css_pain_points.form_elements_styling.description
+    t: Přizpůsobení vzhledu a chování prvků formuláře.
+  - key: options.css_pain_points.performance_issues
+    t: Výkonnostní problémy
+  - key: options.css_pain_points.performance_issues.description
+    t: Vypořádání se s poskakováním při scrollování, plynulými animacemi, atd.
 
-    # CSS missing features (same as features section)
-    - key: options.currently_missing_from_css.nesting
-      t: Zanořování
-    - key: options.currently_missing_from_css.nesting.description
-      t: Schopnost zanořovat styly v nativním CSS.
-    - key: options.currently_missing_from_css.parent_selector
-      t: Rodičovský selektor
-    - key: options.currently_missing_from_css.parent_selector.description
-      t: Schopnost zacílit na rodičovský prvek na základě jeho potomků.
-    - key: options.currently_missing_from_css.browser_support
-      t: Podpora prohlížečů
-    - key: options.currently_missing_from_css.browser_support.description
-      t: Lepší podpora existujících funkcích v prohlížečích.
-    - key: options.currently_missing_from_css.mixins
-      t: Mixiny
-    - key: options.currently_missing_from_css.mixins.description
-      t: Dynamicky seskupovat a opakovaně používat definice.
-    - key: options.currently_missing_from_css.color_functions
-      t: Funkce s barvami
-    - key: options.currently_missing_from_css.color_functions.description
-      t: Funkce pro manipulaci s barevnými hodnotami.
-    - key: options.currently_missing_from_css.container_queries
-      t: Container Queries
-    - key: options.currently_missing_from_css.container_queries.description
-      t: Schopnost psát styly na základě rozměrů nadřazeného kontejneru.
-    - key: options.currently_missing_from_css.scoping
-      t: Zapouzdření
-    - key: options.currently_missing_from_css.scoping.description
-      t: Schopnost být konkrétnější o tom, kde jsou vaše styly aplikovány.
-    - key: options.currently_missing_from_css.subgrid
-      t: Subgrid
-    - key: options.currently_missing_from_css.subgrid.description
-      t: Vnořování subgridů do hlubších úrovní v rodičovském gridu.
+  # CSS missing features (same as features section)
+  - key: options.css_missing_features.nesting
+    t: Zanořování
+  - key: options.css_missing_features.nesting.description
+    t: Schopnost zanořovat styly v nativním CSS.
+  - key: options.css_missing_features.parent_selector
+    t: Rodičovský selektor
+  - key: options.css_missing_features.parent_selector.description
+    t: Schopnost zacílit na rodičovský prvek na základě jeho potomků.
+  - key: options.css_missing_features.browser_support
+    t: Podpora prohlížečů
+  - key: options.css_missing_features.browser_support.description
+    t: Lepší podpora existujících funkcích v prohlížečích.
+  - key: options.css_missing_features.mixins
+    t: Mixiny
+  - key: options.css_missing_features.mixins.description
+    t: Dynamicky seskupovat a opakovaně používat definice.
+  - key: options.css_missing_features.color_functions
+    t: Funkce s barvami
+  - key: options.css_missing_features.color_functions.description
+    t: Funkce pro manipulaci s barevnými hodnotami.
+  - key: options.css_missing_features.container_queries
+    t: Container Queries
+  - key: options.css_missing_features.container_queries.description
+    t: Schopnost psát styly na základě rozměrů nadřazeného kontejneru.
+  - key: options.css_missing_features.scoping
+    t: Zapouzdření
+  - key: options.css_missing_features.scoping.description
+    t: Schopnost být konkrétnější o tom, kde jsou vaše styly aplikovány.
+  - key: options.css_missing_features.subgrid
+    t: Subgrid
+  - key: options.css_missing_features.subgrid.description
+    t: Vnořování subgridů do hlubších úrovní v rodičovském gridu.
 
-    ###########################################################################
-    # Features
-    ###########################################################################
+  ###########################################################################
+  # Features
+  ###########################################################################
 
-    # layout
-    - key: features.regions
-      t: CSS Regions
-    - key: features.multi_column
-      t: CSS Multi-Column
-    - key: features.writing_modes
-      t: CSS Writing Modes
-    - key: features.exclusions
-      t: CSS Exclusions
+  # layout
+  - key: features.regions
+    t: CSS Regions
+  - key: features.multi_column
+    t: CSS Multi-Column
+  - key: features.writing_modes
+    t: CSS Writing Modes
+  - key: features.exclusions
+    t: CSS Exclusions
 
-    - key: features.flexbox_gap
-      t: "`gap` vlastnost pro flexbox"
+  - key: features.flexbox_gap
+    t: "`gap` vlastnost pro flexbox"
 
-    # shapes & graphics
-    - key: features.shapes
-      t: CSS Shapes
-    - key: features.masks
-      t: CSS Masks
-    - key: features.blend_modes
-      t: Blend Modes
-    - key: features.filter_effects
-      t: CSS Filter Effects
+  # shapes & graphics
+  - key: features.shapes
+    t: CSS Shapes
+  - key: features.masks
+    t: CSS Masks
+  - key: features.blend_modes
+    t: Blend Modes
+  - key: features.filter_effects
+    t: CSS Filter Effects
 
-    - key: features.intrinsic_sizing
-      t: Intrinsic Sizing
+  - key: features.intrinsic_sizing
+    t: Intrinsic Sizing
 
   # typography
-    - key: features.web_fonts
-      t: Web Fonts (@font-face)
-    - key: features.variable_fonts
-      t: Variable Fonts
-    - key: features.line_breaking
-      t: Vlastnosti pro zalamování řádků
-    - key: features.direction.description
-      t: Taktéž zahrnuje <code>dir</code> HTML atribut.
+  - key: features.web_fonts
+    t: Web Fonts (@font-face)
+  - key: features.variable_fonts
+    t: Variable Fonts
+  - key: features.line_breaking
+    t: Vlastnosti pro zalamování řádků
+  - key: features.direction.description
+    t: Taktéž zahrnuje <code>dir</code> HTML atribut.
 
   # animations & transforms
-    - key: features.transitions
-      t: CSS Transitions
-    - key: features.transforms
-      t: CSS Transforms
-    - key: features.animations
-      t: CSS Animations
+  - key: features.transitions
+    t: CSS Transitions
+  - key: features.transforms
+    t: CSS Transforms
+  - key: features.animations
+    t: CSS Animations
 
-    # media queries/accessibility
-    - key: features.tabindex
-      t: <code>tabindex</code> HTML atribut
+  # media queries/accessibility
+  - key: features.tabindex
+    t: <code>tabindex</code> HTML atribut
 
-    - key: features.aria_attributes
-      t: ARIA HTML Attributes
-    - key: features.aria_attributes.description
-      t: <code>role</code>, <code>aria-label</code>, atd.
+  - key: features.aria_attributes
+    t: ARIA HTML Attributes
+  - key: features.aria_attributes.description
+    t: <code>role</code>, <code>aria-label</code>, atd.
 
-    # other features
-    - key: features.variables
-      t: CSS Variables (Custom Properties)
-    - key: features.containment
-      t: CSS Containment
-    - key: features.comparison_functions
-      t: CSS Comparison Functions
+  # other features
+  - key: features.variables
+    t: CSS Variables (Custom Properties)
+  - key: features.containment
+    t: CSS Containment
+  - key: features.comparison_functions
+    t: CSS Comparison Functions
 
-    - key: features.css_nesting.description
-      t: Nativní CSS zanořování, vyjma pre- nebo post-procesorů.
+  - key: features.css_nesting.description
+    t: Nativní CSS zanořování, vyjma pre- nebo post-procesorů.
 
-    # missing features (see also options)
-    - key: options.currently_missing_from_css.nesting
-      t: Zanořování
-    - key: options.currently_missing_from_css.nesting.description
-      t: Schopnost zanořovat styly v nativním CSS.
-    - key: options.currently_missing_from_css.parent_selector
-      t: Rodičovský selektor
-    - key: options.currently_missing_from_css.parent_selector.description
-      t: Schopnost zacílit na rodičovský prvek na základě jeho potomků.
-    - key: options.currently_missing_from_css.browser_support
-      t: Podpora prohlížečů
-    - key: options.currently_missing_from_css.browser_support.description
-      t: Lepší podpora existujících funkcích v prohlížečích.
-    - key: options.currently_missing_from_css.mixins
-      t: Mixiny
-    - key: options.currently_missing_from_css.mixins.description
-      t: Dynamicky seskupovat a opakovaně používat definice.
-    - key: options.currently_missing_from_css.color_functions
-      t: Funkce s barvami
-    - key: options.currently_missing_from_css.color_functions.description
-      t: Funkce pro manipulaci s barevnými hodnotami.
-    - key: options.currently_missing_from_css.container_queries
-      t: Container Queries
-    - key: options.currently_missing_from_css.container_queries.description
-      t: Schopnost psát styly na základě rozměrů nadřazeného kontejneru.
-    - key: options.currently_missing_from_css.scoping
-      t: Zapouzdření
-    - key: options.currently_missing_from_css.scoping.description
-      t: Schopnost být konkrétnější o tom, kde jsou vaše styly aplikovány.
-    - key: options.currently_missing_from_css.subgrid
-      t: Subgrid
-    - key: options.currently_missing_from_css.subgrid.description
-      t: Vnořování subgridů do hlubších úrovni v rodičovském gridu.
+  # missing features (see also options)
+  - key: options.css_missing_features.nesting
+    t: Zanořování
+  - key: options.css_missing_features.nesting.description
+    t: Schopnost zanořovat styly v nativním CSS.
+  - key: options.css_missing_features.parent_selector
+    t: Rodičovský selektor
+  - key: options.css_missing_features.parent_selector.description
+    t: Schopnost zacílit na rodičovský prvek na základě jeho potomků.
+  - key: options.css_missing_features.browser_support
+    t: Podpora prohlížečů
+  - key: options.css_missing_features.browser_support.description
+    t: Lepší podpora existujících funkcích v prohlížečích.
+  - key: options.css_missing_features.mixins
+    t: Mixiny
+  - key: options.css_missing_features.mixins.description
+    t: Dynamicky seskupovat a opakovaně používat definice.
+  - key: options.css_missing_features.color_functions
+    t: Funkce s barvami
+  - key: options.css_missing_features.color_functions.description
+    t: Funkce pro manipulaci s barevnými hodnotami.
+  - key: options.css_missing_features.container_queries
+    t: Container Queries
+  - key: options.css_missing_features.container_queries.description
+    t: Schopnost psát styly na základě rozměrů nadřazeného kontejneru.
+  - key: options.css_missing_features.scoping
+    t: Zapouzdření
+  - key: options.css_missing_features.scoping.description
+    t: Schopnost být konkrétnější o tom, kde jsou vaše styly aplikovány.
+  - key: options.css_missing_features.subgrid
+    t: Subgrid
+  - key: options.css_missing_features.subgrid.description
+    t: Vnořování subgridů do hlubších úrovni v rodičovském gridu.
 
-    ###########################################################################
-    # Units & Selectors
-    ###########################################################################
+  ###########################################################################
+  # Units & Selectors
+  ###########################################################################
 
-    - key: features_others.units
-      t: Jednotky
-    - key: features_others.units.description
-      t: Které z těchto jednotek už jste někdy použili?
+  - key: features_others.units
+    t: Jednotky
+  - key: features_others.units.description
+    t: Které z těchto jednotek už jste někdy použili?
 
-    - key: options.units.px
-      t: px
-    - key: options.units.pt
-      t: pt
-    - key: options.units.percent
-      t: '%'
-    - key: options.units.em
-      t: em
-    - key: options.units.rem
-      t: rem
-    - key: options.units.vh_vw
-      t: vh, vw
-    - key: options.units.vmin_vmax
-      t: vmin, vmax
-    - key: options.units.ch
-      t: ch
-    - key: options.units.ex
-      t: ex
-    - key: options.units.mm
-      t: mm
-    - key: options.units.cm
-      t: cm
-    - key: options.units.in
-      t: in
+  - key: options.units.px
+    t: px
+  - key: options.units.pt
+    t: pt
+  - key: options.units.percent
+    t: "%"
+  - key: options.units.em
+    t: em
+  - key: options.units.rem
+    t: rem
+  - key: options.units.vh_vw
+    t: vh, vw
+  - key: options.units.vmin_vmax
+    t: vmin, vmax
+  - key: options.units.ch
+    t: ch
+  - key: options.units.ex
+    t: ex
+  - key: options.units.mm
+    t: mm
+  - key: options.units.cm
+    t: cm
+  - key: options.units.in
+    t: in
 
-    - key: features_others.pseudo_elements
-      t: Pseudo elementy
-    - key: features_others.pseudo_elements.description
-      t: Které z těchto CSS selektorů už jste někdy použili?
+  - key: features_others.pseudo_elements
+    t: Pseudo elementy
+  - key: features_others.pseudo_elements.description
+    t: Které z těchto CSS selektorů už jste někdy použili?
 
-    - key: options.pseudo_elements.before
-      t: '::before'
-    - key: options.pseudo_elements.after
-      t: '::after'
-    - key: options.pseudo_elements.first_line
-      t: '::first-line'
-    - key: options.pseudo_elements.first_letter
-      t: '::first-letter'
-    - key: options.pseudo_elements.selection
-      t: '::selection'
-    - key: options.pseudo_elements.placeholder
-      t: '::placeholder'
-    - key: options.pseudo_elements.marker
-      t: '::marker'
-    - key: options.pseudo_elements.backdrop
-      t: '::backdrop'
+  - key: options.pseudo_elements.before
+    t: "::before"
+  - key: options.pseudo_elements.after
+    t: "::after"
+  - key: options.pseudo_elements.first_line
+    t: "::first-line"
+  - key: options.pseudo_elements.first_letter
+    t: "::first-letter"
+  - key: options.pseudo_elements.selection
+    t: "::selection"
+  - key: options.pseudo_elements.placeholder
+    t: "::placeholder"
+  - key: options.pseudo_elements.marker
+    t: "::marker"
+  - key: options.pseudo_elements.backdrop
+    t: "::backdrop"
 
-    - key: features_others.combinators
-      t: Kombinující selektory
-    - key: features_others.combinators.description
-      t: Které z následujících kombinujících selektorů už jste použili?
+  - key: features_others.combinators
+    t: Kombinující selektory
+  - key: features_others.combinators.description
+    t: Které z následujících kombinujících selektorů už jste použili?
 
-    - key: options.combinators.descendant
-      t: div span (potomek)
-    - key: options.combinators.child
-      t: div > span (přímý potomek)
-    - key: options.combinators.next_sibling
-      t: div + div (následující prvek)
-    - key: options.combinators.subsequent_sibling
-      t: div ~ div (volně následující prvek)
+  - key: options.combinators.descendant
+    t: div span (potomek)
+  - key: options.combinators.child
+    t: div > span (přímý potomek)
+  - key: options.combinators.next_sibling
+    t: div + div (následující prvek)
+  - key: options.combinators.subsequent_sibling
+    t: div ~ div (volně následující prvek)
 
-    - key: features_others.tree_document_structure
-      t: Struktura dokumentu
-    - key: features_others.tree_document_structure.description
-      t: Které z následujících strukturálních selektorů už jste použili?
+  - key: features_others.tree_document_structure
+    t: Struktura dokumentu
+  - key: features_others.tree_document_structure.description
+    t: Které z následujících strukturálních selektorů už jste použili?
 
-    - key: options.tree_document_structure.root
-      t: :root
-    - key: options.tree_document_structure.empty
-      t: :empty
-    - key: options.tree_document_structure.not
-      t: :not()
-    - key: options.tree_document_structure.nth_child
-      t: :nth-child()
-    - key: options.tree_document_structure.nth_last_child
-      t: :nth-last-child()
-    - key: options.tree_document_structure.first_child
-      t: :first-child
-    - key: options.tree_document_structure.last_child
-      t: :last-child
-    - key: options.tree_document_structure.only_child
-      t: :only-child
-    - key: options.tree_document_structure.nth_of_type
-      t: :nth-of-type()
-    - key: options.tree_document_structure.nth_last_of_type
-      t: :nth-last-of-type()
-    - key: options.tree_document_structure.first_of_type
-      t: :first-of-type
-    - key: options.tree_document_structure.last_of_type
-      t: :last-of-type
-    - key: options.tree_document_structure.only_of_type
-      t: :only-of-type
-    - key: options.tree_document_structure.lang
-      t: :lang()
-    - key: options.tree_document_structure.is
-      t: :is()
-    - key: options.tree_document_structure.where
-      t: :where()
-    - key: options.tree_document_structure.has
-      t: :has()
+  - key: options.tree_document_structure.root
+    t: :root
+  - key: options.tree_document_structure.empty
+    t: :empty
+  - key: options.tree_document_structure.not
+    t: :not()
+  - key: options.tree_document_structure.nth_child
+    t: :nth-child()
+  - key: options.tree_document_structure.nth_last_child
+    t: :nth-last-child()
+  - key: options.tree_document_structure.first_child
+    t: :first-child
+  - key: options.tree_document_structure.last_child
+    t: :last-child
+  - key: options.tree_document_structure.only_child
+    t: :only-child
+  - key: options.tree_document_structure.nth_of_type
+    t: :nth-of-type()
+  - key: options.tree_document_structure.nth_last_of_type
+    t: :nth-last-of-type()
+  - key: options.tree_document_structure.first_of_type
+    t: :first-of-type
+  - key: options.tree_document_structure.last_of_type
+    t: :last-of-type
+  - key: options.tree_document_structure.only_of_type
+    t: :only-of-type
+  - key: options.tree_document_structure.lang
+    t: :lang()
+  - key: options.tree_document_structure.is
+    t: :is()
+  - key: options.tree_document_structure.where
+    t: :where()
+  - key: options.tree_document_structure.has
+    t: :has()
 
-    - key: features_others.attributes
-      t: Atributy
-    - key: features_others.attributes.description
-      t: Které z následujících atributových selektorů už jste použili?
+  - key: features_others.attributes
+    t: Atributy
+  - key: features_others.attributes.description
+    t: Které z následujících atributových selektorů už jste použili?
 
-    - key: options.attributes.presence
-      t: div[foo] (existence atributu)
-    - key: options.attributes.equality
-      t: div[foo="bar"] (hodnota atributu)
-    - key: options.attributes.starts_with
-      t: div[foo^="bar"] (začátek hodnoty atributu)
-    - key: options.attributes.ends_with
-      t: div[foo$="bar"] (konec hodnoty atributu)
-    - key: options.attributes.contains_word
-      t: div[foo~="bar"] (obsahuje slovo)
-    - key: options.attributes.contains_substring
-      t: div[foo*="bar"] (obsahuje řetězec)
+  - key: options.attributes.presence
+    t: div[foo] (existence atributu)
+  - key: options.attributes.equality
+    t: div[foo="bar"] (hodnota atributu)
+  - key: options.attributes.starts_with
+    t: div[foo^="bar"] (začátek hodnoty atributu)
+  - key: options.attributes.ends_with
+    t: div[foo$="bar"] (konec hodnoty atributu)
+  - key: options.attributes.contains_word
+    t: div[foo~="bar"] (obsahuje slovo)
+  - key: options.attributes.contains_substring
+    t: div[foo*="bar"] (obsahuje řetězec)
 
-    - key: features_others.links_urls
-      t: Odkazy/URL
-    - key: features_others.links_urls.description
-      t: Které z následujících odkazových selektorů už jste použili?
+  - key: features_others.links_urls
+    t: Odkazy/URL
+  - key: features_others.links_urls.description
+    t: Které z následujících odkazových selektorů už jste použili?
 
-    - key: options.links_urls.any_link
-      t: :any-link
-    - key: options.links_urls.link_visited
-      t: :link a :visited
-    - key: options.links_urls.local_link
-      t: :local-link
-    - key: options.links_urls.target
-      t: :target
+  - key: options.links_urls.any_link
+    t: :any-link
+  - key: options.links_urls.link_visited
+    t: :link a :visited
+  - key: options.links_urls.local_link
+    t: :local-link
+  - key: options.links_urls.target
+    t: :target
 
-    - key: features_others.interaction
-      t: Interakce
-    - key: features_others.interaction.description
-      t: Které z následujících interakčních selektorů už jste použili?
+  - key: features_others.interaction
+    t: Interakce
+  - key: features_others.interaction.description
+    t: Které z následujících interakčních selektorů už jste použili?
 
-    - key: options.interaction.hover
-      t: :hover
-    - key: options.interaction.active
-      t: :active
-    - key: options.interaction.focus
-      t: :focus
-    - key: options.interaction.focus_within
-      t: :focus-within
-    - key: options.interaction.focus_visible
-      t: :focus-visible
+  - key: options.interaction.hover
+    t: :hover
+  - key: options.interaction.active
+    t: :active
+  - key: options.interaction.focus
+    t: :focus
+  - key: options.interaction.focus_within
+    t: :focus-within
+  - key: options.interaction.focus_visible
+    t: :focus-visible
 
-    - key: features_others.form_controls
-      t: Formuláře
-    - key: features_others.form_controls.description
-      t: Které z následujících formulářových selektorů už jste použili?
+  - key: features_others.form_controls
+    t: Formuláře
+  - key: features_others.form_controls.description
+    t: Které z následujících formulářových selektorů už jste použili?
 
-    - key: options.form_controls.enabled_disabled
-      t: :enabled a :disabled
-    - key: options.form_controls.read_only_write
-      t: :read-only a :read-write
-    - key: options.form_controls.placeholder_shown
-      t: :placeholder-shown
-    - key: options.form_controls.default
-      t: :default
-    - key: options.form_controls.checked
-      t: :checked
-    - key: options.form_controls.indeterminate
-      t: :indeterminate
-    - key: options.form_controls.valid_invalid
-      t: :valid a :invalid
-    - key: options.form_controls.user_invalid
-      t: :user-invalid
-    - key: options.form_controls.in_out_range
-      t: :in-range a :out-of-range
-    - key: options.form_controls.required_optional
-      t: :required a :optional
+  - key: options.form_controls.enabled_disabled
+    t: :enabled a :disabled
+  - key: options.form_controls.read_only_write
+    t: :read-only a :read-write
+  - key: options.form_controls.placeholder_shown
+    t: :placeholder-shown
+  - key: options.form_controls.default
+    t: :default
+  - key: options.form_controls.checked
+    t: :checked
+  - key: options.form_controls.indeterminate
+    t: :indeterminate
+  - key: options.form_controls.valid_invalid
+    t: :valid a :invalid
+  - key: options.form_controls.user_invalid
+    t: :user-invalid
+  - key: options.form_controls.in_out_range
+    t: :in-range a :out-of-range
+  - key: options.form_controls.required_optional
+    t: :required a :optional
 
-    # slider
-    - key: options.css_js_balance.0
-      t: 100 % CSS
-    - key: options.css_js_balance.4
-      t: 50 % / 50 %
-    - key: options.css_js_balance.8
-      t: 100 % JS
+  # slider
+  - key: options.css_js_balance.0
+    t: 100 % CSS
+  - key: options.css_js_balance.4
+    t: 50 % / 50 %
+  - key: options.css_js_balance.8
+    t: 100 % JS
 
-    ###########################################################################
-    # Environments
-    ###########################################################################
+  ###########################################################################
+  # Environments
+  ###########################################################################
 
-    - key: environments.browsers
-      t: Prohlížeče
-    - key: environments.browsers.description
-      t: V kterých prohlížečích testujete?
+  - key: environments.browsers
+    t: Prohlížeče
+  - key: environments.browsers.description
+    t: V kterých prohlížečích testujete?
 
-    - key: environments.form_factors
-      t: Zařízení
-    - key: environments.form_factors.description
-      t: Na jakých zařízeních testujete?
+  - key: environments.form_factors
+    t: Zařízení
+  - key: environments.form_factors.description
+    t: Na jakých zařízeních testujete?
 
-    - key: environments.form_factors.others
-      t: Ostatní testovací prostředí
-    - key: environments.form_factors.others.description
-      t: Další zařízení nebo prostředí, ve kterých obvykle testujete.
+  - key: environments.form_factors.others
+    t: Ostatní testovací prostředí
+  - key: environments.form_factors.others.description
+    t: Další zařízení nebo prostředí, ve kterých obvykle testujete.
 
-    - key: environments.accessibility_features
-      t: Funkce spjaté s přístupností
-    - key: environments.accessibility_features.description
-      t: Které funkce spjaté s přístupností obvykle implementujete
-    - key: environments.accessibility_features.others
-      t: Další funkce spjaté s přístupností
-    - key: environments.accessibility_features.others.description
-      t: Další funkce spjaté s přístupností, které obvykle implementujete
+  - key: environments.accessibility_features
+    t: Funkce spjaté s přístupností
+  - key: environments.accessibility_features.description
+    t: Které funkce spjaté s přístupností obvykle implementujete
+  - key: environments.accessibility_features.others
+    t: Další funkce spjaté s přístupností
+  - key: environments.accessibility_features.others.description
+    t: Další funkce spjaté s přístupností, které obvykle implementujete
 
-    - key: environments.css_for_print
-      t: Tiskové styly
-    - key: environments.css_for_print.description
-      t: Píšete tiskové styly?
+  - key: environments.css_for_print
+    t: Tiskové styly
+  - key: environments.css_for_print.description
+    t: Píšete tiskové styly?
 
-    - key: environments.css_for_email
-      t: CSS pro e-mailové klienty
-    - key: environments.css_for_email.description
-      t: Píšete CSS pro e-mailové klienty?
+  - key: environments.css_for_email
+    t: CSS pro e-mailové klienty
+  - key: environments.css_for_email.description
+    t: Píšete CSS pro e-mailové klienty?
 
-    - key: environments.what_do_you_use_css_for
-      t: K čemu převážně používáte CSS?
-    - key: environments.what_do_you_use_css_for.description
-      t: Pro jaký typ projektu obvykle používáte CSS?
-    - key: environments.what_do_you_use_css_for.others
-      t: Jiné druhy projektů
+  - key: environments.what_do_you_use_css_for
+    t: K čemu převážně používáte CSS?
+  - key: environments.what_do_you_use_css_for.description
+    t: Pro jaký typ projektu obvykle používáte CSS?
+  - key: environments.what_do_you_use_css_for.others
+    t: Jiné druhy projektů
 
-    - key: charts.axis_legends.css_for_print
-      t: Četnost
-    - key: charts.axis_legends.css_for_email
-      t: Četnost
+  - key: charts.axis_legends.css_for_print
+    t: Četnost
+  - key: charts.axis_legends.css_for_email
+    t: Četnost
 
-    - key: tools_others.tool_evaluation
-      t: Hodnocení knihovny
-    - key: tools_others.tool_evaluation.description
-      t: >
-        Pro každou shodu vyberte faktor, který upřednostňujete při hodnocení
-        nové knihovny.
+  - key: tools_others.tool_evaluation
+    t: Hodnocení knihovny
+  - key: tools_others.tool_evaluation.description
+    t: >
+      Pro každou shodu vyberte faktor, který upřednostňujete při hodnocení
+      nové knihovny.
 
-    ###########################################################################
-    # Opinions
-    ###########################################################################
+  ###########################################################################
+  # Opinions
+  ###########################################################################
 
-    - key: opinions.css_easy_to_learn
-      t: Naučit se CSS je snadné
-    - key: opinions.css_easy_to_learn.title
-      t: Učící křivka
+  - key: opinions.css_easy_to_learn
+    t: Naučit se CSS je snadné
+  - key: opinions.css_easy_to_learn.title
+    t: Učící křivka
 
-    - key: opinions.css_evolving_slowly
-      t: CSS se vyvíjí příliš pomalu
-    - key: opinions.css_evolving_slowly.title
-      t: Rychlost vývoje
+  - key: opinions.css_evolving_slowly
+    t: CSS se vyvíjí příliš pomalu
+  - key: opinions.css_evolving_slowly.title
+    t: Rychlost vývoje
 
-    - key: opinions.utility_classes_to_be_avoided
-      t: >
-        Utility (nesémantické) třídy (.center, .large-text atd.) by se neměly
-        používat
-    - key: opinions.utility_classes_to_be_avoided.title
-      t: Nesémantické třídy
+  - key: opinions.utility_classes_to_be_avoided
+    t: >
+      Utility (nesémantické) třídy (.center, .large-text atd.) by se neměly
+      používat
+  - key: opinions.utility_classes_to_be_avoided.title
+    t: Nesémantické třídy
 
-    - key: opinions.selector_nesting_to_be_avoided
-      t: Zanořování selektorů (.foo .bar ul li { … }) by se nemělo používat
-    - key: opinions.selector_nesting_to_be_avoided.title
-      t: Zanořování selektorů
+  - key: opinions.selector_nesting_to_be_avoided
+    t: Zanořování selektorů (.foo .bar ul li { … }) by se nemělo používat
+  - key: opinions.selector_nesting_to_be_avoided.title
+    t: Zanořování selektorů
 
-    - key: opinions.css_is_programming_language
-      t: CSS je programovací jazyk
-    - key: opinions.css_is_programming_language.title
-      t: Programovací jazyk
+  - key: opinions.css_is_programming_language
+    t: CSS je programovací jazyk
+  - key: opinions.css_is_programming_language.title
+    t: Programovací jazyk
 
-    - key: opinions.enjoy_writing_css
-      t: Baví mě psát CSS
-    - key: opinions.enjoy_writing_css.title
-      t: Zábava
+  - key: opinions.enjoy_writing_css
+    t: Baví mě psát CSS
+  - key: opinions.enjoy_writing_css.title
+    t: Zábava
 
-    # Browser interoperability question
-    - key: opinions_others.browser_interoperability_features.others
-      t: Nekompatibilita prohlížeče
-    - key: opinions_others.browser_interoperability_features.others.description
-      t: >
-        Existují nějaké stávající CSS funkce, se kterými máte potíže
-        s používáním (nebo se jim úplně vyhýbate)
-        kvůli nedostatečné podpoře nebo rozdílům mezi prohlížeči?
-    - key: usage.interoperability_features_freeform.others
-      aliasFor: opinions_others.browser_interoperability_features.others
-    - key: usage.interoperability_features_freeform.others.description
-      aliasFor: >
-        opinions_others.browser_interoperability_features.others.description
+  # Browser interoperability question
+  - key: opinions_others.browser_interoperability_features.others
+    t: Nekompatibilita prohlížeče
+  - key: opinions_others.browser_interoperability_features.others.description
+    t: >
+      Existují nějaké stávající CSS funkce, se kterými máte potíže
+      s používáním (nebo se jim úplně vyhýbate)
+      kvůli nedostatečné podpoře nebo rozdílům mezi prohlížeči?
+  - key: usage.interoperability_features_freeform.others
+    aliasFor: opinions_others.browser_interoperability_features.others
+  - key: usage.interoperability_features_freeform.others.description
+    aliasFor: >
+      opinions_others.browser_interoperability_features.others.description
 
-    # Pain Points
-    - key: opinions.css_pain_points
-      t: Neduhy v CSS
-    - key: opinions.css_pain_points.description
-      t: Pro každou shodu vyberte aspekt CSS, se kterým nejvíce bojujete.
-    - key: usage.other_pain_points_freeform.others
-      t: Nějaké další problémy související s psaním CSS?
-    - key: opinions_others.css_pain_points.others
-      t: Ostastní neduhy v CSS
+  # Pain Points
+  - key: opinions.css_pain_points
+    t: Neduhy v CSS
+  - key: opinions.css_pain_points.description
+    t: Pro každou shodu vyberte aspekt CSS, se kterým nejvíce bojujete.
+  - key: usage.other_pain_points_freeform.others
+    t: Nějaké další problémy související s psaním CSS?
+  - key: opinions_others.css_pain_points.others
+    t: Ostastní neduhy v CSS
 
-    # Interop 2023
-    - key: usage.interop_features
-      t: Interop 2023 roadmapa
-    - key: usage.interop_features.description
-      t: >
-        Kterou z těchto funkcí byste si nejvíce přáli, aby ji dodavatelé
-        prohlížečů vylepšili? (vyberte 3)
-    - key: usage.interop_features.note
+  # Interop 2023
+  - key: usage.interop_features
+    t: Interop 2023 roadmapa
+  - key: usage.interop_features.description
+    t: >
+      Kterou z těchto funkcí byste si nejvíce přáli, aby ji dodavatelé
+      prohlížečů vylepšili? (vyberte 3)
+  - key: usage.interop_features.note
     # yamllint disable rule:line-length
-      t: >
-        [Interop 2023](https://github.com/web-platform-tests/interop/issues?q=is%3Aissue+is%3Aopen+label%3Afocus-area-proposal)
-        je koordinovaná snaha všech výrobců prohlížečů opravit
-        problémy s kompatibilitou. Výsledky tohoto průzkumu pomohou
-        pracovní skupině stanovit priority v odbavování problémů.
+    t: >
+      [Interop 2023](https://github.com/web-platform-tests/interop/issues?q=is%3Aissue+is%3Aopen+label%3Afocus-area-proposal)
+      je koordinovaná snaha všech výrobců prohlížečů opravit
+      problémy s kompatibilitou. Výsledky tohoto průzkumu pomohou
+      pracovní skupině stanovit priority v odbavování problémů.
+  # yamllint enable rule:line-length
+  # Missing Features
+  - key: opinions.css_missing_features
+    t: Co podle vás v CSS aktuálně chybí?
+  - key: opinions.css_missing_features.description
+    t: >
+      Pro každou shodu vyberte funkci, kterou byste dnes nejraději chtěli
+      být schopni používat v CSS.
+  - key: usage.missing_features_freeform.others
+    t: Jaké funkce podle vás v současné době CSS zcela postrádá?
+
+  - key: opinions_others.css_missing_features.otherss
+    t: Co v CSS aktuálně postrádáte?
+  - key: opinions_others.css_missing_features.others.description
+    t: Funkce, které byste rádi jednou používali.
+
+  - key: opinions.sum_up_one_word_css
+    t: CSS jedním slovem
+  - key: opinions.sum_up_one_word_css.description
+    t: Jak byste shrnuli svůj názor na CSS do jediného slova?
+
+  - key: happiness.pre_post_processors
+    t: Jak jste spokojeni se stavem pre-/post-procesorů?
+  - key: happiness.css_in_js
+    t: Jak jste spokojeni se stavem CSS-in-JS knihoven?
+  - key: happiness.css_frameworks
+    t: Jak jste spokojeni se stavem CSS frameworků?
+
+  - key: happiness.state_of_the_web
+    t: Jak jste spokojeni s celkovým stavem webových technologií?
+
+  - key: happiness.state_of_css
+    t: Jak jste spokojeni s celkovým stavem CSS?
+
+  # pain points/currently missing (results)
+  - key: css_pain_points.css_pain_points_wins
+    t: Neduhy v CSS
+  - key: css_pain_points.css_pain_points_wins.description
+    t: >
+      Se kterým aspektem CSS nejvíce bojujete? Výsledky jsou seřazeny podle
+      počtu vyhraných turnajových kol.
+
+  - key: css_pain_points.css_pain_points_matchups
+    t: Neduhy v CSS (shody)
+  - key: css_pain_points.css_pain_points_matchups.description
+    t: >
+      Se kterým aspektem CSS nejvíce bojujete? Procento kol vyhraných
+      položkou na levé straně proti položce na horní straně.
+
+  - key: css_missing_features.css_missing_features_wins
+    t: Chybějící funkce v CSS
+    # yamllint disable rule:line-length
+  - key: css_missing_features.css_missing_features_wins.description
     # yamllint enable rule:line-length
-    # Missing Features
-    - key: opinions.currently_missing_from_css
-      t: Co podle vás v CSS aktuálně chybí?
-    - key: opinions.currently_missing_from_css.description
-      t: >
-        Pro každou shodu vyberte funkci, kterou byste dnes nejraději chtěli
-        být schopni používat v CSS.
-    - key: usage.missing_features_freeform.others
-      t: Jaké funkce podle vás v současné době CSS zcela postrádá?
+    t: >
+      Kterou funkci byste dnes nejraději chtěli být schopni používat v CSS?
+      Výsledky jsou seřazeny podle počtu vyhraných turnajových kol.
 
-    - key: opinions_others.currently_missing_from_css.otherss
-      t: Co v CSS aktuálně postrádáte?
-    - key: opinions_others.currently_missing_from_css.others.description
-      t: Funkce, které byste rádi jednou používali.
+  - key: css_missing_features.css_missing_features_matchups
+    t: Chybějící funkce v CSS (shody)
+    # yamllint disable rule:line-length
+  - key: css_missing_features.css_missing_features_matchups.description
+    # yamllint enable rule:line-length
+    t: >
+      Kterou funkci byste dnes nejraději chtěli být schopni používat v CSS?
+      Procento kol vyhraných položkou na levé straně proti položce
+      na horní straně.
 
-    - key: opinions.sum_up_one_word_css
-      t: CSS jedním slovem
-    - key: opinions.sum_up_one_word_css.description
-      t: Jak byste shrnuli svůj názor na CSS do jediného slova?
+  - key: usage.css_js_balance
+    t: Rovnováha CSS vs. JavaScript
+  - key: usage.css_js_balance.description
+    t: >
+      Jak rozdělujete svůj čas mezi psaní CSS (včetně HTML markupu) a
+      JavaScript kódu?
 
-    - key: happiness.pre_post_processors
-      t: Jak jste spokojeni se stavem pre-/post-procesorů?
-    - key: happiness.css_in_js
-      t: Jak jste spokojeni se stavem CSS-in-JS knihoven?
-    - key: happiness.css_frameworks
-      t: Jak jste spokojeni se stavem CSS frameworků?
+  ###########################################################################
+  # Resources
+  ###########################################################################
 
-    - key: happiness.state_of_the_web
-      t: Jak jste spokojeni s celkovým stavem webových technologií?
+  - key: resources.first_steps_css
+    t: První kroky s CSS
+  - key: resources.first_steps_css.description
+    t: Když jste začínali, jak jste se učili CSS?
 
-    - key: happiness.state_of_css
-      t: Jak jste spokojeni s celkovým stavem CSS?
+  # sites & courses
+  - key: resources.sites_courses_css
+    aliasFor: resources.sites_courses
+  - key: resources.sites_courses_css.description
+    t: Které weby/kurzy/atd. používáte k učení o CSS?
 
-    # pain points/currently missing (results)
-    - key: css_pain_points.css_pain_points_wins
-      t: Neduhy v CSS
-    - key: css_pain_points.css_pain_points_wins.description
-      t: >
-        Se kterým aspektem CSS nejvíce bojujete? Výsledky jsou seřazeny podle
-        počtu vyhraných turnajových kol.
+  # podcasts
+  - key: resources.podcasts_css
+    aliasFor: resources.podcasts
+  - key: resources.podcasts_css.description
+    t: Které podcasty související s CSS posloucháte?
 
-    - key: css_pain_points.css_pain_points_matchups
-      t: Neduhy v CSS (shody)
-    - key: css_pain_points.css_pain_points_matchups.description
-      t: >
-        Se kterým aspektem CSS nejvíce bojujete? Procento kol vyhraných
-        položkou na levé straně proti položce na horní straně.
+  # people
+  - key: resources.people_css.others
+    aliasFor: resources.people.others
+  - key: resources.people_css.others.description
+    t: >
+      Lidé, které čtete, sledujete nebo jen chcete vyzdvihnout jejich práci
+      v ekosystému CSS.
 
-    - key: currently_missing_from_css.currently_missing_from_css_wins
-      t: Chybějící funkce v CSS
-      # yamllint disable rule:line-length
-    - key: currently_missing_from_css.currently_missing_from_css_wins.description
-      # yamllint enable rule:line-length
-      t: >
-        Kterou funkci byste dnes nejraději chtěli být schopni používat v CSS?
-        Výsledky jsou seřazeny podle počtu vyhraných turnajových kol.
+  ###########################################################################
+  # Survey Help
+  ###########################################################################
 
-    - key: currently_missing_from_css.currently_missing_from_css_matchups
-      t: Chybějící funkce v CSS (shody)
-      # yamllint disable rule:line-length
-    - key: currently_missing_from_css.currently_missing_from_css_matchups.description
-      # yamllint enable rule:line-length
-      t: >
-        Kterou funkci byste dnes nejraději chtěli být schopni používat v CSS?
-        Procento kol vyhraných položkou na levé straně proti položce
-        na horní straně.
+  - key: features.features_intro_css
+    t: |
+      Vítejte v průzkumu! Tato první část je o tom, abychom zjistili
+      které CSS **funkce** znáte.
 
-    - key: usage.css_js_balance
-      t: Rovnováha CSS vs. JavaScript
-    - key: usage.css_js_balance.description
-      t: >
-        Jak rozdělujete svůj čas mezi psaní CSS (včetně HTML markupu) a
-        JavaScript kódu?
-
-    ###########################################################################
-    # Resources
-    ###########################################################################
-
-    - key: resources.first_steps_css
-      t: První kroky s CSS
-    - key: resources.first_steps_css.description
-      t: Když jste začínali, jak jste se učili CSS?
-
-    # sites & courses
-    - key: resources.sites_courses_css
-      aliasFor: resources.sites_courses
-    - key: resources.sites_courses_css.description
-      t: Které weby/kurzy/atd. používáte k učení o CSS?
-
-    # podcasts
-    - key: resources.podcasts_css
-      aliasFor: resources.podcasts
-    - key: resources.podcasts_css.description
-      t: Které podcasty související s CSS posloucháte?
-
-    # people
-    - key: resources.people_css.others
-      aliasFor: resources.people.others
-    - key: resources.people_css.others.description
-      t: >
-        Lidé, které čtete, sledujete nebo jen chcete vyzdvihnout jejich práci
-        v ekosystému CSS.
-
-    ###########################################################################
-    # Survey Help
-    ###########################################################################
-
-    - key: features.features_intro_css
-      t: |
-        Vítejte v průzkumu! Tato první část je o tom, abychom zjistili
-        které CSS **funkce** znáte.
-
-        Mimochodem, pokud nám chcete sdělit více o vašich volbách,
-        stačí kliknout na tuto malou ikonu „komentáře“!
-    - key: tools.tools_intro_css
-      t: >
-        Následujících několik částí se zaměří na **knihovny** a **frameworky**,
-        které tvoří ekosystém CSS. Dejte nám vědět, které vám dělají radost!
+      Mimochodem, pokud nám chcete sdělit více o vašich volbách,
+      stačí kliknout na tuto malou ikonu „komentáře“!
+  - key: tools.tools_intro_css
+    t: >
+      Následujících několik částí se zaměří na **knihovny** a **frameworky**,
+      které tvoří ekosystém CSS. Dejte nám vědět, které vám dělají radost!
