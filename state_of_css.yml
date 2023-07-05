@@ -371,8 +371,6 @@ translations:
     t: Schopnost být konkrétnější o tom, kde jsou vaše styly aplikovány.
   - key: options.css_missing_features.subgrid
     t: Subgrid
-  - key: options.css_missing_features.subgrid.description
-    t: Vnořování subgridů do hlubších úrovni v rodičovském gridu.
 
   ###########################################################################
   # Units & Selectors
