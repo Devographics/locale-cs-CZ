@@ -18,7 +18,7 @@ translations:
       - průběžně ukládáme vaše odpovědi
 
       - upozorníme vás, jakmile budou výsledky zveřejněny
-  - key: general.survey_closed
+  - key: general.survey_closed_detailed
     t: >
       Je nám líto, ale průzkum byl již ukončen. Můžete si projít své
       odpovědi, už ale bohužel není možné je upravovat.
@@ -620,19 +620,19 @@ translations:
       Neuvedeno
 
   # Disability Status (short)
-  - key: options.disability_status.visual_impairments
+  - key: options.disability_status.visual_impairments.short
     t: >
       Vady zraku
-  - key: options.disability_status.hearing_impairments
+  - key: options.disability_status.hearing_impairments.short
     t: >
       Vady sluchu
-  - key: options.disability_status.mobility_impairments
+  - key: options.disability_status.mobility_impairments.short
     t: >
       Omezení pohyblivosti
-  - key: options.disability_status.cognitive_impairments
+  - key: options.disability_status.cognitive_impairments.short
     t: >
       Kognitivní vady
-  - key: options.disability_status.not_listed
+  - key: options.disability_status.not_listed.short
     t: >
       Neuvedeno
 
