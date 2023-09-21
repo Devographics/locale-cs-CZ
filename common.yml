@@ -904,10 +904,7 @@ translations:
   - key: user_info.race_ethnicity
     t: Etnický původ
   - key: user_info.race_ethnicity.description
-  - key: user_info.gender.description
-    t: >
-      Tato data používáme pro sledování a vylepšování vypovídací hodnoty
-      průzkumu.
+
   - key: user_info.race_ethnicity.note
     t: >
       I když víme, že shromažďování a publikování dat o diverzitě může být

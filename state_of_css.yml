@@ -247,10 +247,7 @@ translations:
     t: Rodičovský selektor
   - key: options.css_missing_features.parent_selector.description
     t: Schopnost zacílit na rodičovský prvek na základě jeho potomků.
-  - key: options.css_missing_features.browser_support
-    t: Podpora prohlížečů
-  - key: options.css_missing_features.browser_support.description
-    t: Lepší podpora existujících funkcích v prohlížečích.
+
   - key: options.css_missing_features.mixins
     t: Mixiny
   - key: options.css_missing_features.mixins.description
@@ -263,10 +260,6 @@ translations:
     t: Container Queries
   - key: options.css_missing_features.container_queries.description
     t: Schopnost psát styly na základě rozměrů nadřazeného kontejneru.
-  - key: options.css_missing_features.scoping
-    t: Zapouzdření
-  - key: options.css_missing_features.scoping.description
-    t: Schopnost být konkrétnější o tom, kde jsou vaše styly aplikovány.
   - key: options.css_missing_features.subgrid
     t: Subgrid
   - key: options.css_missing_features.subgrid.description
@@ -341,36 +334,15 @@ translations:
     t: Nativní CSS zanořování, vyjma pre- nebo post-procesorů.
 
   # missing features (see also options)
-  - key: options.css_missing_features.nesting
-    t: Zanořování
-  - key: options.css_missing_features.nesting.description
-    t: Schopnost zanořovat styly v nativním CSS.
-  - key: options.css_missing_features.parent_selector
-    t: Rodičovský selektor
-  - key: options.css_missing_features.parent_selector.description
-    t: Schopnost zacílit na rodičovský prvek na základě jeho potomků.
   - key: options.css_missing_features.browser_support
     t: Podpora prohlížečů
   - key: options.css_missing_features.browser_support.description
     t: Lepší podpora existujících funkcích v prohlížečích.
-  - key: options.css_missing_features.mixins
-    t: Mixiny
-  - key: options.css_missing_features.mixins.description
-    t: Dynamicky seskupovat a opakovaně používat definice.
-  - key: options.css_missing_features.color_functions
-    t: Funkce s barvami
-  - key: options.css_missing_features.color_functions.description
-    t: Funkce pro manipulaci s barevnými hodnotami.
-  - key: options.css_missing_features.container_queries
-    t: Container Queries
-  - key: options.css_missing_features.container_queries.description
-    t: Schopnost psát styly na základě rozměrů nadřazeného kontejneru.
+
   - key: options.css_missing_features.scoping
     t: Zapouzdření
   - key: options.css_missing_features.scoping.description
     t: Schopnost být konkrétnější o tom, kde jsou vaše styly aplikovány.
-  - key: options.css_missing_features.subgrid
-    t: Subgrid
 
   ###########################################################################
   # Units & Selectors

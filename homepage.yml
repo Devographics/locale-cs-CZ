@@ -1,78 +1,77 @@
 locale: cs-CZ
 translations:
-    ###########################################################################
-    # Homepage
-    ###########################################################################
+  ###########################################################################
+  # Homepage
+  ###########################################################################
 
-    - key: homepage.hand_coded
-      t: Vyrobeno v Japonsku.
-    - key: homepage.leave_issue
-      t: Založit issue
-    - key: homepage.get_in_touch
-      t: kontaktovat
+  - key: homepage.hand_coded
+    t: Vyrobeno v Japonsku.
+  - key: homepage.leave_issue
+    t: Založit issue
+  - key: homepage.get_in_touch
+    t: kontaktovat
 
-    - key: homepage.previous_years
-      t: 'Předchozí ročníky:'
+  - key: homepage.previous_years
+    t: "Předchozí ročníky:"
 
-    - key: homepage.take_survey
-      t: Zahájit průzkum
+  - key: homepage.take_survey
+    t: Zahájit průzkum
 
-    - key: homepage.view_results
-      t: Zobrazit výsledky z roku 2019
+  - key: homepage.view_results
+    t: Zobrazit výsledky z roku 2019
 
-    - key: share.help_spread
-      t: Dejte o nás vědět!
+  - key: share.help_spread
+    t: Dejte o nás vědět!
 
-    - key: homepage.other_surveys
-      t: Další průzkumy
+  - key: homepage.other_surveys
+    t: Další průzkumy
 
-    - key: homepage.survey_open_now
-      t: Momentálně otevřené
+  - key: homepage.survey_open_now
+    t: Momentálně otevřené
 
-    - key: homepage.survey_preview
-      t: Náhled průzkumu
+  - key: homepage.survey_preview
+    t: Náhled průzkumu
 
-    - key: homepage.most_recent_survey
-      t: Nejnovější
+  - key: homepage.most_recent_survey
+    t: Nejnovější
 
-    - key: homepage.current_survey
-      t: Aktuální průzkum
+  - key: homepage.current_survey
+    t: Aktuální průzkum
 
-    - key: homepage.past_surveys
-      t: Předchozí průzkumy
+  - key: homepage.past_surveys
+    t: Předchozí průzkumy
 
-    - key: homepage.view_questions
-      t: Zobrazit otázky
+  - key: homepage.view_questions
+    t: Zobrazit otázky
 
-    - key: homepage.preview_questions
-      t: Náhled otázek
+  - key: homepage.preview_questions
+    t: Náhled otázek
 
-    # newsletter
-    - key: newsletter.stay_tuned
-      t: Nenechte si ujít další průzkum
-    - key: newsletter.leave_your_email
-      t: >
-        Zanechte nám svůj e-mail a my vám dáme vědět,
-        až bude probíhat další průzkum.
-    - key: newsletter.email
-      t: Váš e-mail
-    - key: newsletter.submit
-      t: Informujte mě
+  # newsletter
+  - key: newsletter.stay_tuned
+    t: Nenechte si ujít další průzkum
+  - key: newsletter.leave_your_email
+    t: >
+      Zanechte nám svůj e-mail a my vám dáme vědět,
+      až bude probíhat další průzkum.
+  - key: newsletter.email
+    t: Váš e-mail
+  - key: newsletter.submit
+    t: Informujte mě
 
-    # languages
-    - key: languages.available_languages
-      t: 'Dostupné jazyky:'
-    - key: languages.help_us_translate
-      t: Pomozte nám přeložit průzkum do vašeho jazyka →
+  # languages
+  - key: languages.available_languages
+    t: "Dostupné jazyky:"
+  - key: languages.help_us_translate
+    t: Pomozte nám přeložit průzkum do vašeho jazyka →
 
-    # footer
-    - key: homepage.made_by_devographics
-      aliasFor: general.made_by_devographics
-    - key: homepage.netlify_link
-      aliasFor: general.netlify_link
-    - key: homepage.leave_issue
-      aliasFor: general.leave_issue
-    - key: homepage.join_discord
-      aliasFor: general.join_discord
-    - key: homepage.astro_link
-      t: Provozováno na [Astro](https://astro.build/)
+  # footer
+  - key: homepage.made_by_devographics
+    aliasFor: general.made_by_devographics
+  - key: homepage.netlify_link
+    aliasFor: general.netlify_link
+
+  - key: homepage.join_discord
+    aliasFor: general.join_discord
+  - key: homepage.astro_link
+    t: Provozováno na [Astro](https://astro.build/)
