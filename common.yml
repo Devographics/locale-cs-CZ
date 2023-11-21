@@ -1070,7 +1070,7 @@ translations:
   # learning method
   - key: resources.first_steps
     t: Primární zdroje vzdělání
-  - key: resources.first_steps.description
+  - key: resources.first_steps.question
     t: Jakým způsobem jste se poprvé naučili programovat?
   - key: resources.first_steps.others
     t: Jiné primární zdroje vzdělání
@@ -1080,7 +1080,7 @@ translations:
   # blogs & magazines
   - key: resources.blogs_news_magazines
     t: Blogy a magazíny
-  - key: resources.blogs_news_magazines.description
+  - key: resources.blogs_news_magazines.question
     t: Jaké blogy, magazíny apod. čtete?
   - key: resources.blogs_news_magazines.others
     t: Jiné blogy a magazíny
@@ -1090,7 +1090,7 @@ translations:
   # sites & courses
   - key: resources.sites_courses
     t: Weby a kurzy
-  - key: resources.sites_courses.description
+  - key: resources.sites_courses.question
     t: Jaké weby a kurzy sledujete?
   - key: resources.sites_courses.others
     t: Jiné weby a kurzy
@@ -1100,7 +1100,7 @@ translations:
   # podcasts
   - key: resources.podcasts
     t: Podcasty
-  - key: resources.podcasts.description
+  - key: resources.podcasts.question
     t: Jaké podcasty o programování posloucháte?
   - key: resources.podcasts.others
     t: Jiné podcasty
@@ -1126,7 +1126,7 @@ translations:
   # other surveys
   - key: resources.other_surveys
     t: Jiné průzkumy
-  - key: resources.other_surveys.description
+  - key: resources.other_surveys.question
     t: Kterých dalších vývojářských průzkumů se účastníte?
   - key: resources.other_surveys.others
     t: Jiné, výše neuvedené průzkumy
