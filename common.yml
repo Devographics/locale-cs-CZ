@@ -842,55 +842,55 @@ translations:
   # age
   - key: user_info.age
     t: Věk
-  - key: user_info.age.description
+  - key: user_info.age.question
     t: Kolik vám je let?
 
   # years of experience
   - key: user_info.years_of_experience
     t: Roky zkušeností
-  - key: user_info.years_of_experience.description
+  - key: user_info.years_of_experience.question
     t: Jak dlouho pracujete nebo se zabýváte touto oblastí.
 
   # company size
   - key: user_info.company_size
     t: Velikost společnosti
-  - key: user_info.company_size.description
+  - key: user_info.company_size.question
     t: Jak velká je vaše společnost.
 
   # salary ranges
   - key: user_info.yearly_salary
     t: Roční příjem
-  - key: user_info.yearly_salary.description
+  - key: user_info.yearly_salary.question
     t: V amerických dolarech.
 
   # job title
   - key: user_info.job_title
     t: Pozice
-  - key: user_info.job_title.description
+  - key: user_info.job_title.question
     t: Jak se představujete ostatním?
 
   # javascript proficiency
   - key: user_info.javascript_proficiency
     t: Zkušenost s JavaScriptem
-  - key: user_info.javascript_proficiency.description
+  - key: user_info.javascript_proficiency.question
     t: Jakou zkušenost máte s JavaScriptem?
 
   # css proficiency
   - key: user_info.css_proficiency
     t: Zkušenost s CSS
-  - key: user_info.css_proficiency.description
+  - key: user_info.css_proficiency.question
     t: Jakou zkušenost máte s CSS?
 
   # backend proficiency
   - key: user_info.backend_proficiency
     t: Zkušenost s backendem
-  - key: user_info.backend_proficiency.description
+  - key: user_info.backend_proficiency.question
     t: Jakou zkušenost máte s backendovým vývojem?
 
   # gender
   - key: user_info.gender
     t: Pohlaví
-  - key: user_info.gender.description
+  - key: user_info.gender.question
     t: >
       Tato data používáme pro sledování a vylepšování vypovídací hodnoty
       průzkumu.
@@ -903,7 +903,7 @@ translations:
   # race & ethnicity
   - key: user_info.race_ethnicity
     t: Etnický původ
-  - key: user_info.race_ethnicity.description
+  - key: user_info.race_ethnicity.question
 
   - key: user_info.race_ethnicity.note
     t: >
@@ -918,7 +918,7 @@ translations:
   # disability status
   - key: user_info.disability_status
     t: Hendikepy a omezení
-  - key: user_info.disability_status.description
+  - key: user_info.disability_status.question
     t: >
       Tato data používáme pro sledování a vylepšování přístupnosti a
       vypovídací hodnoty průzkumu.
@@ -964,7 +964,7 @@ translations:
 
   - key: user_info.industry_sector
     t: Sektory
-  - key: user_info.industry_sector.description
+  - key: user_info.industry_sector.question
     t: V jakém sektoru (nebo sektorech) pracujete?
   - key: user_info.industry_sector.others
     t: Další sektory
@@ -974,7 +974,7 @@ translations:
   # degree
   - key: user_info.higher_education_degree
     t: Vysokoškolské/vyšší odborné vzdělání
-  - key: user_info.higher_education_degree.description
+  - key: user_info.higher_education_degree.question
     t: Máte ukončené vysokoškolské nebo vyšší odborné vzdělání?
 
   # completion
