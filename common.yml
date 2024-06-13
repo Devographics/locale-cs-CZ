@@ -1002,7 +1002,7 @@ translations:
 
   - key: tools_others.libraries
     t: Knihovny
-  - key: tools_others.libraries.description
+  - key: tools_others.libraries.question
     t: Jaké knihovny pravidelně používáte?
   - key: tools_others.libraries.others
     t: Jiné knihovny
@@ -1011,7 +1011,7 @@ translations:
 
   - key: tools_others.text_editors
     t: Textové editory
-  - key: tools_others.text_editors.description
+  - key: tools_others.text_editors.question
     t: Jaké textové editory pravidelně používáte?
   - key: tools_others.text_editors.others
     t: Jiné textové editory
@@ -1020,7 +1020,7 @@ translations:
 
   - key: tools_others.utilities
     t: Utilitity
-  - key: tools_others.utilities.description
+  - key: tools_others.utilities.question
     t: Jaké utility pravidelně používáte?
   - key: tools_others.utilities.others
     t: Jiné utility
@@ -1029,7 +1029,7 @@ translations:
 
   - key: tools_others.browsers
     t: Prohlížeče
-  - key: tools_others.browsers.description
+  - key: tools_others.browsers.question
     t: Jaké prohlížeče nejčastěji používáte pro počáteční vývoj?
   - key: tools_others.browsers.others
     t: Jiné prohlížeče
@@ -1038,7 +1038,7 @@ translations:
 
   - key: tools_others.build_tools
     t: Buildovací nástroje
-  - key: tools_others.build_tools.description
+  - key: tools_others.build_tools.question
     t: Jaké buildovací nástroje používáte?
   - key: tools_others.build_tools.others
     t: Jiné buildovací nástroje
@@ -1047,7 +1047,7 @@ translations:
 
   - key: tools_others.non_js_languages
     t: Ne-javascriptové jazyky
-  - key: tools_others.non_js_languages.description
+  - key: tools_others.non_js_languages.question
     t: Jaké další programovací jazyky používáte?
   - key: tools_others.non_js_languages.others
     t: Jiné programovací jazyky
@@ -1056,7 +1056,7 @@ translations:
 
   - key: tools_others.javascript_flavors
     t: Podobné JavaScriptu
-  - key: tools_others.javascript_flavors.description
+  - key: tools_others.javascript_flavors.question
     t: Jazyky, které se kompilují do JavaScriptu
   - key: tools_others.javascript_flavors.others
     t: Ostatní podobné JavaScriptu
